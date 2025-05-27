@@ -1,0 +1,2253 @@
+{
+  "I": [
+    "IM2010",
+    "MATH4008",
+    "MATH4010",
+    "CSIE1212",
+    "ECON1023",
+    "JPNL2018",
+    "IM3004",
+    "MGT1002"
+  ],
+  "J": {
+    "IM2010": [
+      "HW0",
+      "Homework 1",
+      "Homework 2",
+      "Homework 3",
+      "FPP",
+      "Midterm Project",
+      "FP Video",
+      "FP Report",
+      "Survey/Admin",
+      "Midterm Exam",
+      "Final Exam",
+      "Pre-lecture W1",
+      "Pre-lecture W2",
+      "Pre-lecture W3",
+      "Pre-lecture W4",
+      "Pre-lecture W5"
+    ],
+    "MATH4008": [
+      "Worksheet 1",
+      "Worksheet 2",
+      "Worksheet 3",
+      "WeBWorK",
+      "Quiz 1",
+      "Quiz 2",
+      "Final Exam"
+    ],
+    "MATH4010": [
+      "HW1",
+      "HW2",
+      "HW3",
+      "WebWork",
+      "Quiz 1",
+      "Quiz 2",
+      "Final Exam"
+    ],
+    "CSIE1212": [
+      "Homework 0",
+      "Homework 1",
+      "Homework 2",
+      "Homework 3",
+      "Homework 4",
+      "Mini HW A",
+      "Mini HW B",
+      "Mini HW C",
+      "Mini HW D",
+      "Mini HW E",
+      "Mini HW F",
+      "Mini HW G",
+      "Mini HW H",
+      "Mini HW I",
+      "Mini HW J",
+      "Mini HW K",
+      "Mini HW L",
+      "Earth Game",
+      "Software Dev Game",
+      "Kahoot Review",
+      "With-Video Quizzes",
+      "Midterm Exam",
+      "Final Exam"
+    ],
+    "ECON1023": [
+      "Quiz 1",
+      "Quiz 2",
+      "Quiz 3",
+      "Quiz 4",
+      "Quiz 5",
+      "Quiz 6",
+      "Midterm Exam",
+      "Final Exam"
+    ],
+    "JPNL2018": [
+      "Class Part W1",
+      "Class Part W2",
+      "Class Part W3",
+      "Class Part W4",
+      "Class Part W5",
+      "Class Part W6",
+      "Class Part W7",
+      "Class Part W8",
+      "Class Part W9",
+      "Class Part W10",
+      "Post-HW W1",
+      "Post-HW W2",
+      "Post-HW W3",
+      "Post-HW W4",
+      "Post-HW W5",
+      "Post-HW W6",
+      "Post-HW W7",
+      "Post-HW W8",
+      "Post-HW W9",
+      "Reading W1",
+      "Reading W2",
+      "Reading W3",
+      "Reading W4",
+      "Reading W5",
+      "Reading W6",
+      "Reading W7",
+      "Reading W8",
+      "Reading W9",
+      "Reading W10",
+      "In-class Quiz W1",
+      "In-class Quiz W2",
+      "In-class Quiz W3",
+      "In-class Quiz W4",
+      "In-class Quiz W5",
+      "In-class Quiz W6",
+      "In-class Quiz W7",
+      "In-class Quiz W8",
+      "In-class Quiz W9",
+      "In-class Quiz W10",
+      "Midterm Exam",
+      "Final Exam"
+    ],
+    "IM3004": [
+      "Case Study Presentation",
+      "Midterm Exam",
+      "Final Exam",
+      "Participation W1",
+      "Participation W2",
+      "Participation W3",
+      "Participation W4",
+      "Participation W5",
+      "Participation W6",
+      "Participation W7",
+      "Participation W8",
+      "Participation W9",
+      "Participation W10",
+      "Participation W11",
+      "Participation W12",
+      "Participation W13",
+      "Participation W14",
+      "Participation W15"
+    ],
+    "MGT1002": [
+      "Quiz",
+      "Project",
+      "Exam 1",
+      "Exam 2",
+      "Exam 3",
+      "TA Session W1",
+      "TA Session W2",
+      "TA Session W3",
+      "TA Session W4",
+      "TA Session W5",
+      "TA Session W6",
+      "TA Session W7",
+      "TA Session W8",
+      "TA Session W9",
+      "TA Session W10"
+    ]
+  },
+  "S": {
+    "IM2010": {
+      "HW0": 0.0,
+      "Homework 1": 0.05,
+      "Homework 2": 0.05,
+      "Homework 3": 0.05,
+      "FPP": 0.0,
+      "Midterm Project": 0.2,
+      "FP Video": 0.0,
+      "FP Report": 0.25,
+      "Survey/Admin": 0.05,
+      "Midterm Exam": 0.12,
+      "Final Exam": 0.18,
+      "Pre-lecture W1": 0.01,
+      "Pre-lecture W2": 0.01,
+      "Pre-lecture W3": 0.01,
+      "Pre-lecture W4": 0.01,
+      "Pre-lecture W5": 0.01
+    },
+    "MATH4008": {
+      "Worksheet 1": 0.07,
+      "Worksheet 2": 0.07,
+      "Worksheet 3": 0.07,
+      "WeBWorK": 0.1,
+      "Quiz 1": 0.1,
+      "Quiz 2": 0.1,
+      "Final Exam": 0.5
+    },
+    "MATH4010": {
+      "HW1": 0.05,
+      "HW2": 0.05,
+      "HW3": 0.05,
+      "WebWork": 0.05,
+      "Quiz 1": 0.15,
+      "Quiz 2": 0.15,
+      "Final Exam": 0.5
+    },
+    "CSIE1212": {
+      "Homework 0": 0.04,
+      "Homework 1": 0.04,
+      "Homework 2": 0.04,
+      "Homework 3": 0.04,
+      "Homework 4": 0.04,
+      "Mini HW A": 0.0083,
+      "Mini HW B": 0.0083,
+      "Mini HW C": 0.0083,
+      "Mini HW D": 0.0083,
+      "Mini HW E": 0.0083,
+      "Mini HW F": 0.0083,
+      "Mini HW G": 0.0083,
+      "Mini HW H": 0.0083,
+      "Mini HW I": 0.0083,
+      "Mini HW J": 0.0083,
+      "Mini HW K": 0.0083,
+      "Mini HW L": 0.0083,
+      "Earth Game": 0.04,
+      "Software Dev Game": 0.03,
+      "Kahoot Review": 0.03,
+      "With-Video Quizzes": 0.0,
+      "Midterm Exam": 0.25,
+      "Final Exam": 0.25
+    },
+    "ECON1023": {
+      "Quiz 1": 0.04,
+      "Quiz 2": 0.04,
+      "Quiz 3": 0.04,
+      "Quiz 4": 0.04,
+      "Quiz 5": 0.04,
+      "Quiz 6": 0.04,
+      "Midterm Exam": 0.4,
+      "Final Exam": 0.4
+    },
+    "JPNL2018": {
+      "Class Part W1": 0.01,
+      "Class Part W2": 0.01,
+      "Class Part W3": 0.01,
+      "Class Part W4": 0.01,
+      "Class Part W5": 0.01,
+      "Class Part W6": 0.01,
+      "Class Part W7": 0.01,
+      "Class Part W8": 0.01,
+      "Class Part W9": 0.01,
+      "Class Part W10": 0.01,
+      "Post-HW W1": 0.01,
+      "Post-HW W2": 0.01,
+      "Post-HW W3": 0.01,
+      "Post-HW W4": 0.01,
+      "Post-HW W5": 0.01,
+      "Post-HW W6": 0.01,
+      "Post-HW W7": 0.01,
+      "Post-HW W8": 0.01,
+      "Post-HW W9": 0.01,
+      "Reading W1": 0.01,
+      "Reading W2": 0.01,
+      "Reading W3": 0.01,
+      "Reading W4": 0.01,
+      "Reading W5": 0.01,
+      "Reading W6": 0.01,
+      "Reading W7": 0.01,
+      "Reading W8": 0.01,
+      "Reading W9": 0.01,
+      "Reading W10": 0.01,
+      "In-class Quiz W1": 0.01,
+      "In-class Quiz W2": 0.01,
+      "In-class Quiz W3": 0.01,
+      "In-class Quiz W4": 0.01,
+      "In-class Quiz W5": 0.01,
+      "In-class Quiz W6": 0.01,
+      "In-class Quiz W7": 0.01,
+      "In-class Quiz W8": 0.01,
+      "In-class Quiz W9": 0.01,
+      "In-class Quiz W10": 0.01,
+      "Midterm Exam": 0.3,
+      "Final Exam": 0.3
+    },
+    "IM3004": {
+      "Case Study Presentation": 0.25,
+      "Midterm Exam": 0.3,
+      "Final Exam": 0.3,
+      "Participation W1": 0.01,
+      "Participation W2": 0.01,
+      "Participation W3": 0.01,
+      "Participation W4": 0.01,
+      "Participation W5": 0.01,
+      "Participation W6": 0.01,
+      "Participation W7": 0.01,
+      "Participation W8": 0.01,
+      "Participation W9": 0.01,
+      "Participation W10": 0.01,
+      "Participation W11": 0.01,
+      "Participation W12": 0.01,
+      "Participation W13": 0.01,
+      "Participation W14": 0.01,
+      "Participation W15": 0.01
+    },
+    "MGT1002": {
+      "Quiz": 0.04,
+      "Project": 0.06,
+      "Exam 1": 0.27,
+      "Exam 2": 0.27,
+      "Exam 3": 0.26,
+      "TA Session W1": 0.01,
+      "TA Session W2": 0.01,
+      "TA Session W3": 0.01,
+      "TA Session W4": 0.01,
+      "TA Session W5": 0.01,
+      "TA Session W6": 0.01,
+      "TA Session W7": 0.01,
+      "TA Session W8": 0.01,
+      "TA Session W9": 0.01,
+      "TA Session W10": 0.01
+    }
+  },
+  "E": {
+    "IM2010": {
+      "HW0": 2,
+      "Homework 1": 4,
+      "Homework 2": 4,
+      "Homework 3": 4,
+      "FPP": 3,
+      "Midterm Project": 12,
+      "FP Video": 8,
+      "FP Report": 10,
+      "Survey/Admin": 1,
+      "Midterm Exam": 6,
+      "Final Exam": 6,
+      "Pre-lecture W1": 1,
+      "Pre-lecture W2": 1,
+      "Pre-lecture W3": 1,
+      "Pre-lecture W4": 1,
+      "Pre-lecture W5": 1
+    },
+    "MATH4008": {
+      "Worksheet 1": 2,
+      "Worksheet 2": 2,
+      "Worksheet 3": 2,
+      "WeBWorK": 4,
+      "Quiz 1": 3,
+      "Quiz 2": 3,
+      "Final Exam": 8
+    },
+    "MATH4010": {
+      "HW1": 2,
+      "HW2": 2,
+      "HW3": 2,
+      "WebWork": 4,
+      "Quiz 1": 3,
+      "Quiz 2": 3,
+      "Final Exam": 8
+    },
+    "CSIE1212": {
+      "Homework 0": 6,
+      "Homework 1": 8,
+      "Homework 2": 8,
+      "Homework 3": 8,
+      "Homework 4": 8,
+      "Mini HW A": 1.5,
+      "Mini HW B": 1.5,
+      "Mini HW C": 1.5,
+      "Mini HW D": 1.5,
+      "Mini HW E": 1.5,
+      "Mini HW F": 1.5,
+      "Mini HW G": 1.5,
+      "Mini HW H": 1.5,
+      "Mini HW I": 1.5,
+      "Mini HW J": 1.5,
+      "Mini HW K": 1.5,
+      "Mini HW L": 1.5,
+      "Earth Game": 3,
+      "Software Dev Game": 3,
+      "Kahoot Review": 1,
+      "With-Video Quizzes": 6,
+      "Midterm Exam": 6,
+      "Final Exam": 6
+    },
+    "ECON1023": {
+      "Quiz 1": 2,
+      "Quiz 2": 2,
+      "Quiz 3": 2,
+      "Quiz 4": 2,
+      "Quiz 5": 2,
+      "Quiz 6": 2,
+      "Midterm Exam": 6,
+      "Final Exam": 6
+    },
+    "JPNL2018": {
+      "Class Part W1": 0.5,
+      "Class Part W2": 0.5,
+      "Class Part W3": 0.5,
+      "Class Part W4": 0.5,
+      "Class Part W5": 0.5,
+      "Class Part W6": 0.5,
+      "Class Part W7": 0.5,
+      "Class Part W8": 0.5,
+      "Class Part W9": 0.5,
+      "Class Part W10": 0.5,
+      "Post-HW W1": 1,
+      "Post-HW W2": 1,
+      "Post-HW W3": 1,
+      "Post-HW W4": 1,
+      "Post-HW W5": 1,
+      "Post-HW W6": 1,
+      "Post-HW W7": 1,
+      "Post-HW W8": 1,
+      "Post-HW W9": 1,
+      "Reading W1": 0.5,
+      "Reading W2": 0.5,
+      "Reading W3": 0.5,
+      "Reading W4": 0.5,
+      "Reading W5": 0.5,
+      "Reading W6": 0.5,
+      "Reading W7": 0.5,
+      "Reading W8": 0.5,
+      "Reading W9": 0.5,
+      "Reading W10": 0.5,
+      "In-class Quiz W1": 0.5,
+      "In-class Quiz W2": 0.5,
+      "In-class Quiz W3": 0.5,
+      "In-class Quiz W4": 0.5,
+      "In-class Quiz W5": 0.5,
+      "In-class Quiz W6": 0.5,
+      "In-class Quiz W7": 0.5,
+      "In-class Quiz W8": 0.5,
+      "In-class Quiz W9": 0.5,
+      "In-class Quiz W10": 0.5,
+      "Midterm Exam": 4,
+      "Final Exam": 4
+    },
+    "IM3004": {
+      "Case Study Presentation": 8,
+      "Midterm Exam": 6,
+      "Final Exam": 6,
+      "Participation W1": 0.5,
+      "Participation W2": 0.5,
+      "Participation W3": 0.5,
+      "Participation W4": 0.5,
+      "Participation W5": 0.5,
+      "Participation W6": 0.5,
+      "Participation W7": 0.5,
+      "Participation W8": 0.5,
+      "Participation W9": 0.5,
+      "Participation W10": 0.5,
+      "Participation W11": 0.5,
+      "Participation W12": 0.5,
+      "Participation W13": 0.5,
+      "Participation W14": 0.5,
+      "Participation W15": 0.5
+    },
+    "MGT1002": {
+      "Quiz": 1,
+      "Project": 5,
+      "Exam 1": 6,
+      "Exam 2": 6,
+      "Exam 3": 6,
+      "TA Session W1": 0.5,
+      "TA Session W2": 0.5,
+      "TA Session W3": 0.5,
+      "TA Session W4": 0.5,
+      "TA Session W5": 0.5,
+      "TA Session W6": 0.5,
+      "TA Session W7": 0.5,
+      "TA Session W8": 0.5,
+      "TA Session W9": 0.5,
+      "TA Session W10": 0.5
+    }
+  },
+  "r": {
+    "IM2010": {
+      "HW0": [
+        1,
+        1
+      ],
+      "Homework 1": [
+        22,
+        1
+      ],
+      "Homework 2": [
+        29,
+        1
+      ],
+      "Homework 3": [
+        78,
+        1
+      ],
+      "FPP": [
+        36,
+        1
+      ],
+      "Midterm Project": [
+        64,
+        1
+      ],
+      "FP Video": [
+        85,
+        1
+      ],
+      "FP Report": [
+        85,
+        1
+      ],
+      "Survey/Admin": [
+        1,
+        1
+      ],
+      "Midterm Exam": [
+        29,
+        1
+      ],
+      "Final Exam": [
+        85,
+        1
+      ],
+      "Pre-lecture W1": [
+        44,
+        1
+      ],
+      "Pre-lecture W2": [
+        51,
+        1
+      ],
+      "Pre-lecture W3": [
+        58,
+        1
+      ],
+      "Pre-lecture W4": [
+        65,
+        1
+      ],
+      "Pre-lecture W5": [
+        72,
+        1
+      ]
+    },
+    "MATH4008": {
+      "Worksheet 1": [
+        8,
+        1
+      ],
+      "Worksheet 2": [
+        22,
+        1
+      ],
+      "Worksheet 3": [
+        36,
+        1
+      ],
+      "WeBWorK": [
+        1,
+        1
+      ],
+      "Quiz 1": [
+        1,
+        1
+      ],
+      "Quiz 2": [
+        18,
+        1
+      ],
+      "Final Exam": [
+        36,
+        1
+      ]
+    },
+    "MATH4010": {
+      "HW1": [
+        68,
+        1
+      ],
+      "HW2": [
+        82,
+        1
+      ],
+      "HW3": [
+        96,
+        1
+      ],
+      "WebWork": [
+        57,
+        1
+      ],
+      "Quiz 1": [
+        61,
+        1
+      ],
+      "Quiz 2": [
+        75,
+        1
+      ],
+      "Final Exam": [
+        90,
+        1
+      ]
+    },
+    "CSIE1212": {
+      "Homework 0": [
+        1,
+        1
+      ],
+      "Homework 1": [
+        22,
+        1
+      ],
+      "Homework 2": [
+        36,
+        1
+      ],
+      "Homework 3": [
+        57,
+        1
+      ],
+      "Homework 4": [
+        78,
+        1
+      ],
+      "Mini HW A": [
+        8,
+        1
+      ],
+      "Mini HW B": [
+        15,
+        1
+      ],
+      "Mini HW C": [
+        22,
+        1
+      ],
+      "Mini HW D": [
+        29,
+        1
+      ],
+      "Mini HW E": [
+        36,
+        1
+      ],
+      "Mini HW F": [
+        43,
+        1
+      ],
+      "Mini HW G": [
+        43,
+        1
+      ],
+      "Mini HW H": [
+        57,
+        1
+      ],
+      "Mini HW I": [
+        71,
+        1
+      ],
+      "Mini HW J": [
+        85,
+        1
+      ],
+      "Mini HW K": [
+        99,
+        1
+      ],
+      "Mini HW L": [
+        92,
+        1
+      ],
+      "Earth Game": [
+        57,
+        1
+      ],
+      "Software Dev Game": [
+        78,
+        1
+      ],
+      "Kahoot Review": [
+        92,
+        1
+      ],
+      "With-Video Quizzes": [
+        94,
+        1
+      ],
+      "Midterm Exam": [
+        29,
+        1
+      ],
+      "Final Exam": [
+        85,
+        1
+      ]
+    },
+    "ECON1023": {
+      "Quiz 1": [
+        5,
+        1
+      ],
+      "Quiz 2": [
+        12,
+        1
+      ],
+      "Quiz 3": [
+        19,
+        1
+      ],
+      "Quiz 4": [
+        33,
+        1
+      ],
+      "Quiz 5": [
+        47,
+        1
+      ],
+      "Quiz 6": [
+        54,
+        1
+      ],
+      "Midterm Exam": [
+        35,
+        1
+      ],
+      "Final Exam": [
+        89,
+        1
+      ]
+    },
+    "JPNL2018": {
+      "Class Part W1": [
+        45,
+        1
+      ],
+      "Class Part W2": [
+        52,
+        1
+      ],
+      "Class Part W3": [
+        59,
+        1
+      ],
+      "Class Part W4": [
+        66,
+        1
+      ],
+      "Class Part W5": [
+        73,
+        1
+      ],
+      "Class Part W6": [
+        80,
+        1
+      ],
+      "Class Part W7": [
+        87,
+        1
+      ],
+      "Class Part W8": [
+        94,
+        1
+      ],
+      "Class Part W9": [
+        101,
+        1
+      ],
+      "Class Part W10": [
+        108,
+        1
+      ],
+      "Post-HW W1": [
+        45,
+        1
+      ],
+      "Post-HW W2": [
+        52,
+        1
+      ],
+      "Post-HW W3": [
+        59,
+        1
+      ],
+      "Post-HW W4": [
+        66,
+        1
+      ],
+      "Post-HW W5": [
+        73,
+        1
+      ],
+      "Post-HW W6": [
+        80,
+        1
+      ],
+      "Post-HW W7": [
+        87,
+        1
+      ],
+      "Post-HW W8": [
+        94,
+        1
+      ],
+      "Post-HW W9": [
+        101,
+        1
+      ],
+      "Reading W1": [
+        45,
+        1
+      ],
+      "Reading W2": [
+        52,
+        1
+      ],
+      "Reading W3": [
+        59,
+        1
+      ],
+      "Reading W4": [
+        66,
+        1
+      ],
+      "Reading W5": [
+        73,
+        1
+      ],
+      "Reading W6": [
+        80,
+        1
+      ],
+      "Reading W7": [
+        87,
+        1
+      ],
+      "Reading W8": [
+        94,
+        1
+      ],
+      "Reading W9": [
+        101,
+        1
+      ],
+      "Reading W10": [
+        108,
+        1
+      ],
+      "In-class Quiz W1": [
+        24,
+        1
+      ],
+      "In-class Quiz W2": [
+        31,
+        1
+      ],
+      "In-class Quiz W3": [
+        38,
+        1
+      ],
+      "In-class Quiz W4": [
+        45,
+        1
+      ],
+      "In-class Quiz W5": [
+        52,
+        1
+      ],
+      "In-class Quiz W6": [
+        59,
+        1
+      ],
+      "In-class Quiz W7": [
+        66,
+        1
+      ],
+      "In-class Quiz W8": [
+        73,
+        1
+      ],
+      "In-class Quiz W9": [
+        80,
+        1
+      ],
+      "In-class Quiz W10": [
+        87,
+        1
+      ],
+      "Midterm Exam": [
+        29,
+        1
+      ],
+      "Final Exam": [
+        92,
+        1
+      ]
+    },
+    "IM3004": {
+      "Case Study Presentation": [
+        1,
+        1
+      ],
+      "Midterm Exam": [
+        29,
+        1
+      ],
+      "Final Exam": [
+        85,
+        1
+      ],
+      "Participation W1": [
+        42,
+        1
+      ],
+      "Participation W2": [
+        47,
+        1
+      ],
+      "Participation W3": [
+        52,
+        1
+      ],
+      "Participation W4": [
+        57,
+        1
+      ],
+      "Participation W5": [
+        62,
+        1
+      ],
+      "Participation W6": [
+        67,
+        1
+      ],
+      "Participation W7": [
+        72,
+        1
+      ],
+      "Participation W8": [
+        77,
+        1
+      ],
+      "Participation W9": [
+        82,
+        1
+      ],
+      "Participation W10": [
+        87,
+        1
+      ],
+      "Participation W11": [
+        92,
+        1
+      ],
+      "Participation W12": [
+        97,
+        1
+      ],
+      "Participation W13": [
+        102,
+        1
+      ],
+      "Participation W14": [
+        107,
+        1
+      ],
+      "Participation W15": [
+        112,
+        1
+      ]
+    },
+    "MGT1002": {
+      "Quiz": [
+        15,
+        1
+      ],
+      "Project": [
+        99,
+        1
+      ],
+      "Exam 1": [
+        10,
+        1
+      ],
+      "Exam 2": [
+        45,
+        1
+      ],
+      "Exam 3": [
+        88,
+        1
+      ],
+      "TA Session W1": [
+        45,
+        1
+      ],
+      "TA Session W2": [
+        52,
+        1
+      ],
+      "TA Session W3": [
+        59,
+        1
+      ],
+      "TA Session W4": [
+        66,
+        1
+      ],
+      "TA Session W5": [
+        73,
+        1
+      ],
+      "TA Session W6": [
+        80,
+        1
+      ],
+      "TA Session W7": [
+        87,
+        1
+      ],
+      "TA Session W8": [
+        94,
+        1
+      ],
+      "TA Session W9": [
+        101,
+        1
+      ],
+      "TA Session W10": [
+        108,
+        1
+      ]
+    }
+  },
+  "d": {
+    "IM2010": {
+      "HW0": [
+        7,
+        16
+      ],
+      "Homework 1": [
+        26,
+        16
+      ],
+      "Homework 2": [
+        33,
+        16
+      ],
+      "Homework 3": [
+        82,
+        16
+      ],
+      "FPP": [
+        40,
+        16
+      ],
+      "Midterm Project": [
+        82,
+        16
+      ],
+      "FP Video": [
+        96,
+        16
+      ],
+      "FP Report": [
+        96,
+        16
+      ],
+      "Survey/Admin": [
+        106,
+        16
+      ],
+      "Midterm Exam": [
+        50,
+        16
+      ],
+      "Final Exam": [
+        106,
+        16
+      ],
+      "Pre-lecture W1": [
+        44,
+        16
+      ],
+      "Pre-lecture W2": [
+        51,
+        16
+      ],
+      "Pre-lecture W3": [
+        58,
+        16
+      ],
+      "Pre-lecture W4": [
+        65,
+        16
+      ],
+      "Pre-lecture W5": [
+        72,
+        16
+      ]
+    },
+    "MATH4008": {
+      "Worksheet 1": [
+        22,
+        16
+      ],
+      "Worksheet 2": [
+        36,
+        16
+      ],
+      "Worksheet 3": [
+        50,
+        16
+      ],
+      "WeBWorK": [
+        56,
+        16
+      ],
+      "Quiz 1": [
+        18,
+        16
+      ],
+      "Quiz 2": [
+        39,
+        16
+      ],
+      "Final Exam": [
+        57,
+        16
+      ]
+    },
+    "MATH4010": {
+      "HW1": [
+        82,
+        16
+      ],
+      "HW2": [
+        96,
+        16
+      ],
+      "HW3": [
+        109,
+        16
+      ],
+      "WebWork": [
+        109,
+        16
+      ],
+      "Quiz 1": [
+        82,
+        16
+      ],
+      "Quiz 2": [
+        96,
+        16
+      ],
+      "Final Exam": [
+        111,
+        16
+      ]
+    },
+    "CSIE1212": {
+      "Homework 0": [
+        64,
+        16
+      ],
+      "Homework 1": [
+        36,
+        16
+      ],
+      "Homework 2": [
+        64,
+        16
+      ],
+      "Homework 3": [
+        78,
+        16
+      ],
+      "Homework 4": [
+        92,
+        16
+      ],
+      "Mini HW A": [
+        64,
+        16
+      ],
+      "Mini HW B": [
+        64,
+        16
+      ],
+      "Mini HW C": [
+        64,
+        16
+      ],
+      "Mini HW D": [
+        64,
+        16
+      ],
+      "Mini HW E": [
+        64,
+        16
+      ],
+      "Mini HW F": [
+        64,
+        16
+      ],
+      "Mini HW G": [
+        115,
+        16
+      ],
+      "Mini HW H": [
+        115,
+        16
+      ],
+      "Mini HW I": [
+        115,
+        16
+      ],
+      "Mini HW J": [
+        115,
+        16
+      ],
+      "Mini HW K": [
+        115,
+        16
+      ],
+      "Mini HW L": [
+        115,
+        16
+      ],
+      "Earth Game": [
+        64,
+        16
+      ],
+      "Software Dev Game": [
+        85,
+        16
+      ],
+      "Kahoot Review": [
+        99,
+        16
+      ],
+      "With-Video Quizzes": [
+        115,
+        16
+      ],
+      "Midterm Exam": [
+        50,
+        16
+      ],
+      "Final Exam": [
+        106,
+        16
+      ]
+    },
+    "ECON1023": {
+      "Quiz 1": [
+        26,
+        16
+      ],
+      "Quiz 2": [
+        33,
+        16
+      ],
+      "Quiz 3": [
+        40,
+        16
+      ],
+      "Quiz 4": [
+        54,
+        16
+      ],
+      "Quiz 5": [
+        68,
+        16
+      ],
+      "Quiz 6": [
+        75,
+        16
+      ],
+      "Midterm Exam": [
+        56,
+        16
+      ],
+      "Final Exam": [
+        110,
+        16
+      ]
+    },
+    "JPNL2018": {
+      "Class Part W1": [
+        45,
+        16
+      ],
+      "Class Part W2": [
+        52,
+        16
+      ],
+      "Class Part W3": [
+        59,
+        16
+      ],
+      "Class Part W4": [
+        66,
+        16
+      ],
+      "Class Part W5": [
+        73,
+        16
+      ],
+      "Class Part W6": [
+        80,
+        16
+      ],
+      "Class Part W7": [
+        87,
+        16
+      ],
+      "Class Part W8": [
+        94,
+        16
+      ],
+      "Class Part W9": [
+        101,
+        16
+      ],
+      "Class Part W10": [
+        108,
+        16
+      ],
+      "Post-HW W1": [
+        52,
+        16
+      ],
+      "Post-HW W2": [
+        59,
+        16
+      ],
+      "Post-HW W3": [
+        66,
+        16
+      ],
+      "Post-HW W4": [
+        73,
+        16
+      ],
+      "Post-HW W5": [
+        80,
+        16
+      ],
+      "Post-HW W6": [
+        87,
+        16
+      ],
+      "Post-HW W7": [
+        94,
+        16
+      ],
+      "Post-HW W8": [
+        101,
+        16
+      ],
+      "Post-HW W9": [
+        108,
+        16
+      ],
+      "Reading W1": [
+        45,
+        16
+      ],
+      "Reading W2": [
+        52,
+        16
+      ],
+      "Reading W3": [
+        59,
+        16
+      ],
+      "Reading W4": [
+        66,
+        16
+      ],
+      "Reading W5": [
+        73,
+        16
+      ],
+      "Reading W6": [
+        80,
+        16
+      ],
+      "Reading W7": [
+        87,
+        16
+      ],
+      "Reading W8": [
+        94,
+        16
+      ],
+      "Reading W9": [
+        101,
+        16
+      ],
+      "Reading W10": [
+        108,
+        16
+      ],
+      "In-class Quiz W1": [
+        45,
+        16
+      ],
+      "In-class Quiz W2": [
+        52,
+        16
+      ],
+      "In-class Quiz W3": [
+        59,
+        16
+      ],
+      "In-class Quiz W4": [
+        66,
+        16
+      ],
+      "In-class Quiz W5": [
+        73,
+        16
+      ],
+      "In-class Quiz W6": [
+        80,
+        16
+      ],
+      "In-class Quiz W7": [
+        87,
+        16
+      ],
+      "In-class Quiz W8": [
+        94,
+        16
+      ],
+      "In-class Quiz W9": [
+        101,
+        16
+      ],
+      "In-class Quiz W10": [
+        108,
+        16
+      ],
+      "Midterm Exam": [
+        50,
+        16
+      ],
+      "Final Exam": [
+        113,
+        16
+      ]
+    },
+    "IM3004": {
+      "Case Study Presentation": [
+        92,
+        16
+      ],
+      "Midterm Exam": [
+        50,
+        16
+      ],
+      "Final Exam": [
+        106,
+        16
+      ],
+      "Participation W1": [
+        42,
+        16
+      ],
+      "Participation W2": [
+        47,
+        16
+      ],
+      "Participation W3": [
+        52,
+        16
+      ],
+      "Participation W4": [
+        57,
+        16
+      ],
+      "Participation W5": [
+        62,
+        16
+      ],
+      "Participation W6": [
+        67,
+        16
+      ],
+      "Participation W7": [
+        72,
+        16
+      ],
+      "Participation W8": [
+        77,
+        16
+      ],
+      "Participation W9": [
+        82,
+        16
+      ],
+      "Participation W10": [
+        87,
+        16
+      ],
+      "Participation W11": [
+        92,
+        16
+      ],
+      "Participation W12": [
+        97,
+        16
+      ],
+      "Participation W13": [
+        102,
+        16
+      ],
+      "Participation W14": [
+        107,
+        16
+      ],
+      "Participation W15": [
+        112,
+        16
+      ]
+    },
+    "MGT1002": {
+      "Quiz": [
+        22,
+        16
+      ],
+      "Project": [
+        103,
+        16
+      ],
+      "Exam 1": [
+        31,
+        16
+      ],
+      "Exam 2": [
+        66,
+        16
+      ],
+      "Exam 3": [
+        109,
+        16
+      ],
+      "TA Session W1": [
+        45,
+        16
+      ],
+      "TA Session W2": [
+        52,
+        16
+      ],
+      "TA Session W3": [
+        59,
+        16
+      ],
+      "TA Session W4": [
+        66,
+        16
+      ],
+      "TA Session W5": [
+        73,
+        16
+      ],
+      "TA Session W6": [
+        80,
+        16
+      ],
+      "TA Session W7": [
+        87,
+        16
+      ],
+      "TA Session W8": [
+        94,
+        16
+      ],
+      "TA Session W9": [
+        101,
+        16
+      ],
+      "TA Session W10": [
+        108,
+        16
+      ]
+    }
+  },
+  "slot": {
+    "IM2010": {
+      "Midterm Exam": [
+        [
+          50,
+          2
+        ],
+        [
+          50,
+          3
+        ],
+        [
+          50,
+          4
+        ]
+      ],
+      "Final Exam": [
+        [
+          106,
+          2
+        ],
+        [
+          106,
+          3
+        ],
+        [
+          106,
+          4
+        ]
+      ],
+      "Pre-lecture W1": [
+        [
+          44,
+          2
+        ],
+        [
+          44,
+          3
+        ],
+        [
+          44,
+          4
+        ]
+      ],
+      "Pre-lecture W2": [
+        [
+          51,
+          2
+        ],
+        [
+          51,
+          3
+        ],
+        [
+          51,
+          4
+        ]
+      ],
+      "Pre-lecture W3": [
+        [
+          58,
+          2
+        ],
+        [
+          58,
+          3
+        ],
+        [
+          58,
+          4
+        ]
+      ],
+      "Pre-lecture W4": [
+        [
+          65,
+          2
+        ],
+        [
+          65,
+          3
+        ],
+        [
+          65,
+          4
+        ]
+      ],
+      "Pre-lecture W5": [
+        [
+          72,
+          2
+        ],
+        [
+          72,
+          3
+        ],
+        [
+          72,
+          4
+        ]
+      ]
+    },
+    "MATH4008": {
+      "Quiz 1": [
+        [
+          18,
+          11
+        ]
+      ],
+      "Quiz 2": [
+        [
+          39,
+          11
+        ]
+      ],
+      "Final Exam": [
+        [
+          57,
+          7
+        ],
+        [
+          57,
+          8
+        ],
+        [
+          57,
+          9
+        ]
+      ]
+    },
+    "MATH4010": {
+      "Quiz 1": [
+        [
+          82,
+          11
+        ]
+      ],
+      "Quiz 2": [
+        [
+          96,
+          11
+        ]
+      ],
+      "Final Exam": [
+        [
+          111,
+          7
+        ],
+        [
+          111,
+          8
+        ],
+        [
+          111,
+          9
+        ]
+      ]
+    },
+    "CSIE1212": {
+      "Midterm Exam": [
+        [
+          50,
+          8
+        ]
+      ],
+      "Final Exam": [
+        [
+          106,
+          8
+        ]
+      ]
+    },
+    "ECON1023": {
+      "Quiz 1": [
+        [
+          26,
+          4
+        ]
+      ],
+      "Quiz 2": [
+        [
+          33,
+          4
+        ]
+      ],
+      "Quiz 3": [
+        [
+          40,
+          4
+        ]
+      ],
+      "Quiz 4": [
+        [
+          54,
+          4
+        ]
+      ],
+      "Quiz 5": [
+        [
+          68,
+          4
+        ]
+      ],
+      "Quiz 6": [
+        [
+          75,
+          4
+        ]
+      ],
+      "Midterm Exam": [
+        [
+          56,
+          3
+        ],
+        [
+          56,
+          4
+        ],
+        [
+          56,
+          5
+        ]
+      ],
+      "Final Exam": [
+        [
+          110,
+          4
+        ]
+      ]
+    },
+    "JPNL2018": {
+      "Class Part W1": [
+        [
+          45,
+          2
+        ],
+        [
+          45,
+          3
+        ],
+        [
+          45,
+          4
+        ]
+      ],
+      "Class Part W2": [
+        [
+          52,
+          2
+        ],
+        [
+          52,
+          3
+        ],
+        [
+          52,
+          4
+        ]
+      ],
+      "Class Part W3": [
+        [
+          59,
+          2
+        ],
+        [
+          59,
+          3
+        ],
+        [
+          59,
+          4
+        ]
+      ],
+      "Class Part W4": [
+        [
+          66,
+          2
+        ],
+        [
+          66,
+          3
+        ],
+        [
+          66,
+          4
+        ]
+      ],
+      "Class Part W5": [
+        [
+          73,
+          2
+        ],
+        [
+          73,
+          3
+        ],
+        [
+          73,
+          4
+        ]
+      ],
+      "Class Part W6": [
+        [
+          80,
+          2
+        ],
+        [
+          80,
+          3
+        ],
+        [
+          80,
+          4
+        ]
+      ],
+      "Class Part W7": [
+        [
+          87,
+          2
+        ],
+        [
+          87,
+          3
+        ],
+        [
+          87,
+          4
+        ]
+      ],
+      "Class Part W8": [
+        [
+          94,
+          2
+        ],
+        [
+          94,
+          3
+        ],
+        [
+          94,
+          4
+        ]
+      ],
+      "Class Part W9": [
+        [
+          101,
+          2
+        ],
+        [
+          101,
+          3
+        ],
+        [
+          101,
+          4
+        ]
+      ],
+      "Class Part W10": [
+        [
+          108,
+          2
+        ],
+        [
+          108,
+          3
+        ],
+        [
+          108,
+          4
+        ]
+      ],
+      "In-class Quiz W1": [
+        [
+          45,
+          3
+        ]
+      ],
+      "In-class Quiz W2": [
+        [
+          52,
+          3
+        ]
+      ],
+      "In-class Quiz W3": [
+        [
+          59,
+          3
+        ]
+      ],
+      "In-class Quiz W4": [
+        [
+          66,
+          3
+        ]
+      ],
+      "In-class Quiz W5": [
+        [
+          73,
+          3
+        ]
+      ],
+      "In-class Quiz W6": [
+        [
+          80,
+          3
+        ]
+      ],
+      "In-class Quiz W7": [
+        [
+          87,
+          3
+        ]
+      ],
+      "In-class Quiz W8": [
+        [
+          94,
+          3
+        ]
+      ],
+      "In-class Quiz W9": [
+        [
+          101,
+          3
+        ]
+      ],
+      "In-class Quiz W10": [
+        [
+          108,
+          3
+        ]
+      ],
+      "Midterm Exam": [
+        [
+          50,
+          2
+        ],
+        [
+          50,
+          3
+        ],
+        [
+          50,
+          4
+        ]
+      ],
+      "Final Exam": [
+        [
+          113,
+          2
+        ],
+        [
+          113,
+          3
+        ],
+        [
+          113,
+          4
+        ]
+      ]
+    },
+    "IM3004": {
+      "Midterm Exam": [
+        [
+          50,
+          7
+        ]
+      ],
+      "Final Exam": [
+        [
+          106,
+          7
+        ]
+      ],
+      "Participation W1": [
+        [
+          42,
+          7
+        ]
+      ],
+      "Participation W2": [
+        [
+          47,
+          7
+        ]
+      ],
+      "Participation W3": [
+        [
+          52,
+          7
+        ]
+      ],
+      "Participation W4": [
+        [
+          57,
+          7
+        ]
+      ],
+      "Participation W5": [
+        [
+          62,
+          7
+        ]
+      ],
+      "Participation W6": [
+        [
+          67,
+          7
+        ]
+      ],
+      "Participation W7": [
+        [
+          72,
+          7
+        ]
+      ],
+      "Participation W8": [
+        [
+          77,
+          7
+        ]
+      ],
+      "Participation W9": [
+        [
+          82,
+          7
+        ]
+      ],
+      "Participation W10": [
+        [
+          87,
+          7
+        ]
+      ],
+      "Participation W11": [
+        [
+          92,
+          7
+        ]
+      ],
+      "Participation W12": [
+        [
+          97,
+          7
+        ]
+      ],
+      "Participation W13": [
+        [
+          102,
+          7
+        ]
+      ],
+      "Participation W14": [
+        [
+          107,
+          7
+        ]
+      ],
+      "Participation W15": [
+        [
+          112,
+          7
+        ]
+      ]
+    },
+    "MGT1002": {
+      "Quiz": [
+        [
+          22,
+          10
+        ]
+      ],
+      "Project": [
+        [
+          103,
+          10
+        ]
+      ],
+      "Exam 1": [
+        [
+          31,
+          10
+        ]
+      ],
+      "Exam 2": [
+        [
+          66,
+          10
+        ]
+      ],
+      "Exam 3": [
+        [
+          109,
+          10
+        ]
+      ],
+      "TA Session W1": [
+        [
+          45,
+          10
+        ]
+      ],
+      "TA Session W2": [
+        [
+          52,
+          10
+        ]
+      ],
+      "TA Session W3": [
+        [
+          59,
+          10
+        ]
+      ],
+      "TA Session W4": [
+        [
+          66,
+          10
+        ]
+      ],
+      "TA Session W5": [
+        [
+          73,
+          10
+        ]
+      ],
+      "TA Session W6": [
+        [
+          80,
+          10
+        ]
+      ],
+      "TA Session W7": [
+        [
+          87,
+          10
+        ]
+      ],
+      "TA Session W8": [
+        [
+          94,
+          10
+        ]
+      ],
+      "TA Session W9": [
+        [
+          101,
+          10
+        ]
+      ],
+      "TA Session W10": [
+        [
+          108,
+          10
+        ]
+      ]
+    }
+  },
+  "category": {
+    "IM2010": "SOC",
+    "MATH4008": "STEM",
+    "MATH4010": "STEM",
+    "CSIE1212": "STEM",
+    "ECON1023": "SOC",
+    "JPNL2018": "HUM",
+    "IM3004": "SOC",
+    "MGT1002": "SOC"
+  }
+}
