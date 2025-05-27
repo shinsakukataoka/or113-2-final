@@ -21,15 +21,20 @@ with open("courses.json") as f:
 
 COURSES = catalog["I"]                # eight course codes
 TASKS   = catalog["J"]                # dict of task lists
-
-# ------------------------------------------------------------------ #
-# Student-profile templates                                          #
-# ------------------------------------------------------------------ #
+SHIFT_GAMMA = [
+    0.8, 0.9, 1.0, 1.0, 1.0, 0.9, 0.8, 0.8,
+    0.8, 0.9, 1.0, 1.0, 0.9, 0.8, 0.7, 0.7
+]
+FORGET   = {
+    "Exam"     : 0.20,   # strong decay
+    "Homework" : 0.05,
+    "Activity" : 0.00,
+}
 STYLE2CAT = dict(stem="STEM", soc="SOC", hum="HUM")
 WORK_LEVELS = {
-    "lazy":   dict(beta=1.0,  H=4),
-    "normal": dict(beta=0.5,  H=8),
-    "hard":   dict(beta=0.2, H=12),
+    "lazy":   dict(beta=0.0075,  H=3),   # ← lower than the 4 daily shifts used
+    "normal": dict(beta=0.0075,  H=6),
+    "hard":   dict(beta=0.0075,  H=8),
 }
 MULT = dict(fav=1.2, norm=1.0, weak=0.8)
 
@@ -50,16 +55,30 @@ def build_P_template(style):
         P[c] = {"*": MULT[group]}
     return P
 
+def is_exam(taskname):
+    low = taskname.lower()
+    return "exam" in low or "quiz" in low
+
 def expand_P(template, tasks):
-    """Expand {"*": coeff} to every (k,t) for the chosen tasks."""
+    """
+    P[c][task]['(k,t)'] = base · γ_t · exp(-λ·gap)
+    λ = 0.20 for exams/quizzes, else 0.00   (FORGET dict)
+    """
     full = {}
-    for c in tasks:                       # only selected courses
-        coeff = template[c]["*"]
+    due_dict = catalog["d"]            # already loaded at top
+    for c in tasks:
+        base = template[c]["*"]        # 1.2 / 1.0 / 0.8
         full[c] = {}
-        for t in tasks[c]:
-            for k in range(1, DAYS+1):
-                for s in range(2, SHIFTS):            # shifts 2-15
-                    full[c].setdefault(t, {})[str((k,s))] = coeff
+        for task in tasks[c]:
+            lam   = 0.20 if is_exam(task) else 0.00
+            dday  = due_dict[c][task][0]        # due day
+            full[c][task] = {}
+            for k in range(1, DAYS + 1):
+                decay = math.exp(-lam * max(dday - k, 0))
+                for t in range(1, SHIFTS + 1):
+                    gamma = SHIFT_GAMMA[t - 1]
+                    coeff = round(base * gamma * decay, 3)
+                    full[c][task][f"({k},{t})"] = coeff
     return full
 
 # ------------------------------------------------------------------ #
@@ -111,4 +130,4 @@ for combo in itertools.combinations(COURSES, 4):        # choose 4 courses
             json.dump(inst, f, indent=2)
         count += 1
 
-print(f"✅  {count} instances written to ./instances/")
+print(f"{count} instances written to ./instances/")
