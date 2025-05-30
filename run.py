@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 # run.py  – solve one JSON instance and pretty-print the timetable
 # ---------------------------------------------------------------------
-
+import time
 import json, argparse, csv, textwrap
 import gurobipy as gp
 from gurobipy import GRB
 from collections import defaultdict
 from pathlib import Path
+import math
+
+SHIFTS_PER_HOUR = 1
 
 # ------------------------------------------------------------------ #
 # Helpers                                                            #
@@ -53,6 +56,9 @@ def _to_csv(schedule, path="schedule.csv"):
 # Main                                                               #
 # ------------------------------------------------------------------ #
 def main():
+    import time                                   # local import keeps diff tiny
+    t_total_start = time.perf_counter()           # ── overall timer ─────────
+
     p = argparse.ArgumentParser(
         formatter_class=argparse.RawDescriptionHelpFormatter,
         description=textwrap.dedent("""
@@ -140,13 +146,14 @@ def main():
             m.addConstr(gp.quicksum(y.get((k, t, i, j), 0)
                                     for i in I for j in J[i]) <= 1)
 
-    # break rule: ≤4 shifts worked in any 6-shift window
-    for k in K:
-        for t0 in range(1, SHIFTS - 5):
-            m.addConstr(gp.quicksum(
-                y.get((k, t, i, j), 0)
-                for t in range(t0, t0 + 6)
-                for i in I for j in J[i]) <= 4)
+    # upper bound on slots per task
+    for i in I:
+        for j in J[i]:
+            max_slots = math.ceil(E[i][j] / SHIFTS_PER_HOUR)
+            m.addConstr(
+                gp.quicksum(y.get((k, t, i, j), 0) for k in K for t in T)
+                <= max_slots
+            )
 
     # overtime
     for k in K:
@@ -162,27 +169,27 @@ def main():
         m.addConstr(G[i] >= B[i])
 
     # objective --------------------------------------------------------------
-    m.setObjective(gp.quicksum(w[i] * G[i] for i in I)
+    m.setObjective(((gp.quicksum(w[i] * G[i] for i in I) / sum(w.values())) * 4)
                    - beta * gp.quicksum(z[k] for k in K),
                    GRB.MAXIMIZE)
 
-    # ----------------- solve -------------------------------------------------
+    # ----------------- solve (timed) ----------------------------------------
+    t_solve_start = time.perf_counter()
     m.optimize()
+    solve_sec = time.perf_counter() - t_solve_start
+
     if m.Status not in (GRB.OPTIMAL, GRB.TIME_LIMIT):
         print(f"Model finished with status {m.Status}")
         return
 
     # ----------------- results ----------------------------------------------
-    # schedule list
     schedule = sorted((k, t, i, j)
                       for (k, t, i, j), var in y.items() if var.X > 0.5)
 
-    # utility breakdown
     gpa_part   = sum(w[i] * G[i].X for i in I)
     ot_hours   = sum(z[k].X for k in K)
     penalty    = beta * ot_hours
 
-    # summary banner
     print(textwrap.dedent(f"""
         ══════════════════════════════════════════════════════════
         Instance       : {Path(args.instance).name}
@@ -190,11 +197,13 @@ def main():
         β (overtime wt): {beta:.3f}
         Daily H* (base): {min(H_star.values())} … {max(H_star.values())} hours
         ----------------------------------------------------------
-        Weighted GPA   : {gpa_part:7.4f}
+        Credit-weighted GPA   : {gpa_part:7.4f}
         Overtime hours : {ot_hours:7.2f}
         Penalty β·∑z   : {penalty:7.4f}
         ----------------------------------------------------------
         Total utility  : {m.ObjVal:7.4f}
+        Solve time (s) : {solve_sec:7.2f}
+        Total time (s) : {time.perf_counter() - t_total_start:7.2f}
         ══════════════════════════════════════════════════════════
     """).strip())
 
@@ -203,11 +212,15 @@ def main():
         _grid(schedule, T, mandatory)
     elif args.pretty == "csv":
         _to_csv(schedule, args.csv_path)
-    else:   # classic list
+    else:
         for k, t, i, j in schedule:
             flag = "*" if (k, t, i, j) in mandatory else " "
             print(f"{flag} ({k:3d}, {t:2d})  {i:<8}  {j}")
 
+    # final GPA in 4-point scale
+    total_cred = sum(w.values())
+    gpa_4 = (sum(w[i] * G[i].X for i in I) / total_cred) * 4
+    print(f"Weighted GPA (4-pt) : {gpa_4:5.2f}")
 # ------------------------------------------------------------------ #
 if __name__ == "__main__":
     main()

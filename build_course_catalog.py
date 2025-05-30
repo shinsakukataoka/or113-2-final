@@ -19,7 +19,17 @@ from collections import defaultdict
 # ------------------------------------------------------------------ #
 # Global parameters                                                  #
 # ------------------------------------------------------------------ #
-EFFORT_FACTOR            = 2.0      # multiply all nominal efforts
+EFFORT_FACTOR            = 3      # multiply all nominal efforts
+EFFORT_FACTOR = {
+    "IM2010":   1.99,
+    "CSIE1212": 1.93,
+    "ECON1023": 4.00,
+    "JPNL2018": 3.27,
+    "IM3004":   3.93,
+    "MGT1002":  3.72,
+    "MATH4008": 2.67,
+    "MATH4010": 2.67,
+}
 LECTURE_HOURS_PER_WEEK   = 3        # total in-class hours / course / week
 WEEKS                    = 15       # teaching weeks covered by the term
 LAST_SHIFT               = 16       # 22–23 h
@@ -43,20 +53,32 @@ def add_exam(course, name, w_pct, due, effort,
 
 def add_weekly_lectures(tlist):
     """
-    Inject a zero-weight ‘Lecture Wk n’ task for every course that
-    already appears in *tlist*.  The lecture gets:
-       • weight  = 0.0      (does not affect GPA)
-       • effort  = LECTURE_HOURS_PER_WEEK   /  WEEKS
-         (so total hours ≈ LECTURE_HOURS_PER_WEEK × WEEKS)
-       • no fixed slot – lets the optimiser place study time freely
+    Inject a zero-weight ‘Lecture Wk n’ task for every course *unless* that
+    course already has weekly graded attendance/participation entries
+    (weight > 0).  This prevents double-counting the same contact hours.
+
+    Lecture parameters if inserted:
+      • weight  = 0.0                (no GPA impact)
+      • effort  = LECTURE_HOURS_PER_WEEK / WEEKS   (≈ 0.2 h, later × EFFORT_FACTOR)
+      • fixed   = None               (optimizer may place freely)
     """
     per_course = {c for c, *_ in tlist}
     weekly_eff = round(LECTURE_HOURS_PER_WEEK / WEEKS, 3)
+
     for course in per_course:
-        # look up any existing row to copy the category (STEM/HUM/SOC)
+        # Does this course already have weekly graded participation tasks?
+        has_weekly_graded = any(
+            c == course and w_pct > 0 and (
+                "Participation" in name or "Class Part" in name)
+            for c, name, w_pct, *_ in tlist
+        )
+        if has_weekly_graded:
+            continue   # skip lecture placeholders for this course
+
+        # Otherwise, add lecture placeholders for every week
         cat = next(cat for c, _, _, _, _, _, _, cat in tlist if c == course)
         for w in range(1, WEEKS + 1):
-            day = 1 + 7 * (w - 1)          # Monday of week w  (≈ good enough)
+            day = 1 + 7 * (w - 1)          # Monday of week w
             name = f"Lecture Wk {w}"
             add(course, name, 0.0, day, day, weekly_eff,
                 fixed=None, cat=cat, tlist=tlist)
@@ -84,7 +106,9 @@ add_exam(IM, "Final Exam",   18,106, 6,
 
 for w,d in enumerate([44,51,58,65,72], start=1):
     add(IM, f"Pre-lecture W{w}", 1, d, d, 1,
-        fixed=[(d,2),(d,3),(d,4)], cat=im_cat, tlist=TASKS)
+        None,           
+        im_cat,
+        TASKS)
 
 # === 2. MATH4008 Calculus III (STEM) ===============================
 M8, cat8 = "MATH4008","STEM"
@@ -141,7 +165,7 @@ add_exam(EC,"Final Exam", 40,110,6,fixed=[(110,4)],cat=ecat,tlist=TASKS)
 JP, jcat = "JPNL2018","HUM"
 for w,d in enumerate(range(45,109,7),start=1):
     add(JP,f"Class Part W{w}",1,d,d,0.5,
-        fixed=[(d,2),(d,3),(d,4)],cat=jcat,tlist=TASKS)
+        fixed=None, cat=jcat,tlist=TASKS)
 for w,(rel,due) in enumerate(zip(range(45,108,7),range(52,116,7)),start=1):
     add(JP,f"Post-HW W{w}",1,rel,due,1,None,jcat,TASKS)
 for w,d in enumerate(range(45,109,7),start=1):
@@ -162,7 +186,7 @@ add_exam(OB,"Final Exam", 30,106,6,fixed=[(106,7)],cat=obcat,tlist=TASKS)
 for w,d in enumerate(range(42,113,5),start=1):
     sh = 6 if d == 57 else 7
     add(OB,f"Participation W{w}",1,d,d,0.5,
-        fixed=[(d,sh)],cat=obcat,tlist=TASKS)
+        fixed=None,cat=obcat,tlist=TASKS)
 
 # === 8. MGT1002 Accounting Principles (2) (SOC) ===================
 AC, acat = "MGT1002","SOC"
@@ -174,7 +198,7 @@ add_exam(AC,"Exam 3",26,109,6,fixed=[(109,10)],cat=acat,tlist=TASKS)
 for w,d in enumerate(range(45,109,7),start=1):
     sh = 11 if d == 66 else 10
     add(AC,f"TA Session W{w}",1,d,d,0.5,
-        fixed=[(d,sh)],cat=acat,tlist=TASKS)
+        fixed=None,cat=acat,tlist=TASKS)
 
 # ------------------------------------------------------------------ #
 # >>>  inject weekly lecture tasks  <<<                              #
@@ -198,7 +222,7 @@ def register(course, task, pairs):
 for course, name, w_pct, rel, due, eff, fixed, cat in TASKS:
     J[course].append(name)
     S[course][name] = round(w_pct / 100, 8)
-    E[course][name] = eff * EFFORT_FACTOR
+    E[course][name] = eff * EFFORT_FACTOR[course]
     r[course][name] = [rel, 1]
     if fixed:
         register(course, name, fixed)

@@ -37,6 +37,16 @@ WORK_LEVELS = {
     "hard":   dict(beta=0.0075,  H=8),
 }
 MULT = dict(fav=1.2, norm=1.0, weak=0.8)
+CREDIT = {
+    "IM2010":   3,
+    "MATH4008": 2,
+    "MATH4010": 2,
+    "CSIE1212": 3,
+    "ECON1023": 3,
+    "JPNL2018": 3,
+    "IM3004":   3,
+    "MGT1002":  3,
+}
 
 course_cat = catalog["category"]      # course → STEM/SOC/HUM
 DAYS, SHIFTS = 115, 16
@@ -111,7 +121,7 @@ for combo in itertools.combinations(COURSES, 4):        # choose 4 courses
         r=sub(catalog["r"]),
         d=sub(catalog["d"]),
         slot={c: catalog["slot"].get(c, {}) for c in combo},
-        w={c: 1.0 for c in combo},                # equal weights
+        w = {c: CREDIT[c] for c in combo},                # equal weights
         B={c: 0.6 for c in combo},               # pass line
     )
 

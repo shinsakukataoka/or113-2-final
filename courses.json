@@ -197,22 +197,7 @@
       "In-class Quiz W9",
       "In-class Quiz W10",
       "Midterm Exam",
-      "Final Exam",
-      "Lecture Wk 1",
-      "Lecture Wk 2",
-      "Lecture Wk 3",
-      "Lecture Wk 4",
-      "Lecture Wk 5",
-      "Lecture Wk 6",
-      "Lecture Wk 7",
-      "Lecture Wk 8",
-      "Lecture Wk 9",
-      "Lecture Wk 10",
-      "Lecture Wk 11",
-      "Lecture Wk 12",
-      "Lecture Wk 13",
-      "Lecture Wk 14",
-      "Lecture Wk 15"
+      "Final Exam"
     ],
     "IM3004": [
       "Case Study Presentation",
@@ -232,22 +217,7 @@
       "Participation W12",
       "Participation W13",
       "Participation W14",
-      "Participation W15",
-      "Lecture Wk 1",
-      "Lecture Wk 2",
-      "Lecture Wk 3",
-      "Lecture Wk 4",
-      "Lecture Wk 5",
-      "Lecture Wk 6",
-      "Lecture Wk 7",
-      "Lecture Wk 8",
-      "Lecture Wk 9",
-      "Lecture Wk 10",
-      "Lecture Wk 11",
-      "Lecture Wk 12",
-      "Lecture Wk 13",
-      "Lecture Wk 14",
-      "Lecture Wk 15"
+      "Participation W15"
     ],
     "MGT1002": [
       "Quiz",
@@ -470,22 +440,7 @@
       "In-class Quiz W9": 0.01010101,
       "In-class Quiz W10": 0.01010101,
       "Midterm Exam": 0.3030303,
-      "Final Exam": 0.3030303,
-      "Lecture Wk 1": 0.0,
-      "Lecture Wk 2": 0.0,
-      "Lecture Wk 3": 0.0,
-      "Lecture Wk 4": 0.0,
-      "Lecture Wk 5": 0.0,
-      "Lecture Wk 6": 0.0,
-      "Lecture Wk 7": 0.0,
-      "Lecture Wk 8": 0.0,
-      "Lecture Wk 9": 0.0,
-      "Lecture Wk 10": 0.0,
-      "Lecture Wk 11": 0.0,
-      "Lecture Wk 12": 0.0,
-      "Lecture Wk 13": 0.0,
-      "Lecture Wk 14": 0.0,
-      "Lecture Wk 15": 0.0
+      "Final Exam": 0.3030303
     },
     "IM3004": {
       "Case Study Presentation": 0.25,
@@ -505,22 +460,7 @@
       "Participation W12": 0.01,
       "Participation W13": 0.01,
       "Participation W14": 0.01,
-      "Participation W15": 0.01,
-      "Lecture Wk 1": 0.0,
-      "Lecture Wk 2": 0.0,
-      "Lecture Wk 3": 0.0,
-      "Lecture Wk 4": 0.0,
-      "Lecture Wk 5": 0.0,
-      "Lecture Wk 6": 0.0,
-      "Lecture Wk 7": 0.0,
-      "Lecture Wk 8": 0.0,
-      "Lecture Wk 9": 0.0,
-      "Lecture Wk 10": 0.0,
-      "Lecture Wk 11": 0.0,
-      "Lecture Wk 12": 0.0,
-      "Lecture Wk 13": 0.0,
-      "Lecture Wk 14": 0.0,
-      "Lecture Wk 15": 0.0
+      "Participation W15": 0.01
     },
     "MGT1002": {
       "Quiz": 0.04,
@@ -557,275 +497,245 @@
   },
   "E": {
     "IM2010": {
-      "HW0": 4.0,
-      "Homework 1": 8.0,
-      "Homework 2": 8.0,
-      "Homework 3": 8.0,
-      "FPP": 6.0,
-      "Midterm Project": 24.0,
-      "FP Video": 16.0,
-      "FP Report": 20.0,
-      "Survey/Admin": 2.0,
-      "Midterm Exam": 12.0,
-      "Final Exam": 12.0,
-      "Pre-lecture W1": 2.0,
-      "Pre-lecture W2": 2.0,
-      "Pre-lecture W3": 2.0,
-      "Pre-lecture W4": 2.0,
-      "Pre-lecture W5": 2.0,
-      "Lecture Wk 1": 0.4,
-      "Lecture Wk 2": 0.4,
-      "Lecture Wk 3": 0.4,
-      "Lecture Wk 4": 0.4,
-      "Lecture Wk 5": 0.4,
-      "Lecture Wk 6": 0.4,
-      "Lecture Wk 7": 0.4,
-      "Lecture Wk 8": 0.4,
-      "Lecture Wk 9": 0.4,
-      "Lecture Wk 10": 0.4,
-      "Lecture Wk 11": 0.4,
-      "Lecture Wk 12": 0.4,
-      "Lecture Wk 13": 0.4,
-      "Lecture Wk 14": 0.4,
-      "Lecture Wk 15": 0.4
+      "HW0": 3.98,
+      "Homework 1": 7.96,
+      "Homework 2": 7.96,
+      "Homework 3": 7.96,
+      "FPP": 5.97,
+      "Midterm Project": 23.88,
+      "FP Video": 15.92,
+      "FP Report": 19.9,
+      "Survey/Admin": 1.99,
+      "Midterm Exam": 11.94,
+      "Final Exam": 11.94,
+      "Pre-lecture W1": 1.99,
+      "Pre-lecture W2": 1.99,
+      "Pre-lecture W3": 1.99,
+      "Pre-lecture W4": 1.99,
+      "Pre-lecture W5": 1.99,
+      "Lecture Wk 1": 0.398,
+      "Lecture Wk 2": 0.398,
+      "Lecture Wk 3": 0.398,
+      "Lecture Wk 4": 0.398,
+      "Lecture Wk 5": 0.398,
+      "Lecture Wk 6": 0.398,
+      "Lecture Wk 7": 0.398,
+      "Lecture Wk 8": 0.398,
+      "Lecture Wk 9": 0.398,
+      "Lecture Wk 10": 0.398,
+      "Lecture Wk 11": 0.398,
+      "Lecture Wk 12": 0.398,
+      "Lecture Wk 13": 0.398,
+      "Lecture Wk 14": 0.398,
+      "Lecture Wk 15": 0.398
     },
     "MATH4008": {
-      "Worksheet 1": 4.0,
-      "Worksheet 2": 4.0,
-      "Worksheet 3": 4.0,
-      "WeBWorK": 8.0,
-      "Quiz 1": 6.0,
-      "Quiz 2": 6.0,
-      "Final Exam": 16.0,
-      "Lecture Wk 1": 0.4,
-      "Lecture Wk 2": 0.4,
-      "Lecture Wk 3": 0.4,
-      "Lecture Wk 4": 0.4,
-      "Lecture Wk 5": 0.4,
-      "Lecture Wk 6": 0.4,
-      "Lecture Wk 7": 0.4,
-      "Lecture Wk 8": 0.4,
-      "Lecture Wk 9": 0.4,
-      "Lecture Wk 10": 0.4,
-      "Lecture Wk 11": 0.4,
-      "Lecture Wk 12": 0.4,
-      "Lecture Wk 13": 0.4,
-      "Lecture Wk 14": 0.4,
-      "Lecture Wk 15": 0.4
+      "Worksheet 1": 5.34,
+      "Worksheet 2": 5.34,
+      "Worksheet 3": 5.34,
+      "WeBWorK": 10.68,
+      "Quiz 1": 8.01,
+      "Quiz 2": 8.01,
+      "Final Exam": 21.36,
+      "Lecture Wk 1": 0.534,
+      "Lecture Wk 2": 0.534,
+      "Lecture Wk 3": 0.534,
+      "Lecture Wk 4": 0.534,
+      "Lecture Wk 5": 0.534,
+      "Lecture Wk 6": 0.534,
+      "Lecture Wk 7": 0.534,
+      "Lecture Wk 8": 0.534,
+      "Lecture Wk 9": 0.534,
+      "Lecture Wk 10": 0.534,
+      "Lecture Wk 11": 0.534,
+      "Lecture Wk 12": 0.534,
+      "Lecture Wk 13": 0.534,
+      "Lecture Wk 14": 0.534,
+      "Lecture Wk 15": 0.534
     },
     "MATH4010": {
-      "HW1": 4.0,
-      "HW2": 4.0,
-      "HW3": 4.0,
-      "WebWork": 8.0,
-      "Quiz 1": 6.0,
-      "Quiz 2": 6.0,
-      "Final Exam": 16.0,
-      "Lecture Wk 1": 0.4,
-      "Lecture Wk 2": 0.4,
-      "Lecture Wk 3": 0.4,
-      "Lecture Wk 4": 0.4,
-      "Lecture Wk 5": 0.4,
-      "Lecture Wk 6": 0.4,
-      "Lecture Wk 7": 0.4,
-      "Lecture Wk 8": 0.4,
-      "Lecture Wk 9": 0.4,
-      "Lecture Wk 10": 0.4,
-      "Lecture Wk 11": 0.4,
-      "Lecture Wk 12": 0.4,
-      "Lecture Wk 13": 0.4,
-      "Lecture Wk 14": 0.4,
-      "Lecture Wk 15": 0.4
+      "HW1": 5.34,
+      "HW2": 5.34,
+      "HW3": 5.34,
+      "WebWork": 10.68,
+      "Quiz 1": 8.01,
+      "Quiz 2": 8.01,
+      "Final Exam": 21.36,
+      "Lecture Wk 1": 0.534,
+      "Lecture Wk 2": 0.534,
+      "Lecture Wk 3": 0.534,
+      "Lecture Wk 4": 0.534,
+      "Lecture Wk 5": 0.534,
+      "Lecture Wk 6": 0.534,
+      "Lecture Wk 7": 0.534,
+      "Lecture Wk 8": 0.534,
+      "Lecture Wk 9": 0.534,
+      "Lecture Wk 10": 0.534,
+      "Lecture Wk 11": 0.534,
+      "Lecture Wk 12": 0.534,
+      "Lecture Wk 13": 0.534,
+      "Lecture Wk 14": 0.534,
+      "Lecture Wk 15": 0.534
     },
     "CSIE1212": {
-      "Homework 0": 12.0,
-      "Homework 1": 16.0,
-      "Homework 2": 16.0,
-      "Homework 3": 16.0,
-      "Homework 4": 16.0,
-      "Mini HW A": 3.0,
-      "Mini HW B": 3.0,
-      "Mini HW C": 3.0,
-      "Mini HW D": 3.0,
-      "Mini HW E": 3.0,
-      "Mini HW F": 3.0,
-      "Mini HW G": 3.0,
-      "Mini HW H": 3.0,
-      "Mini HW I": 3.0,
-      "Mini HW J": 3.0,
-      "Mini HW K": 3.0,
-      "Mini HW L": 3.0,
-      "Earth Game": 6.0,
-      "Software Dev Game": 6.0,
-      "Kahoot Review": 2.0,
-      "With-Video Quizzes": 12.0,
-      "Midterm Exam": 12.0,
-      "Final Exam": 12.0,
-      "Lecture Wk 1": 0.4,
-      "Lecture Wk 2": 0.4,
-      "Lecture Wk 3": 0.4,
-      "Lecture Wk 4": 0.4,
-      "Lecture Wk 5": 0.4,
-      "Lecture Wk 6": 0.4,
-      "Lecture Wk 7": 0.4,
-      "Lecture Wk 8": 0.4,
-      "Lecture Wk 9": 0.4,
-      "Lecture Wk 10": 0.4,
-      "Lecture Wk 11": 0.4,
-      "Lecture Wk 12": 0.4,
-      "Lecture Wk 13": 0.4,
-      "Lecture Wk 14": 0.4,
-      "Lecture Wk 15": 0.4
+      "Homework 0": 11.58,
+      "Homework 1": 15.44,
+      "Homework 2": 15.44,
+      "Homework 3": 15.44,
+      "Homework 4": 15.44,
+      "Mini HW A": 2.895,
+      "Mini HW B": 2.895,
+      "Mini HW C": 2.895,
+      "Mini HW D": 2.895,
+      "Mini HW E": 2.895,
+      "Mini HW F": 2.895,
+      "Mini HW G": 2.895,
+      "Mini HW H": 2.895,
+      "Mini HW I": 2.895,
+      "Mini HW J": 2.895,
+      "Mini HW K": 2.895,
+      "Mini HW L": 2.895,
+      "Earth Game": 5.79,
+      "Software Dev Game": 5.79,
+      "Kahoot Review": 1.93,
+      "With-Video Quizzes": 11.58,
+      "Midterm Exam": 11.58,
+      "Final Exam": 11.58,
+      "Lecture Wk 1": 0.386,
+      "Lecture Wk 2": 0.386,
+      "Lecture Wk 3": 0.386,
+      "Lecture Wk 4": 0.386,
+      "Lecture Wk 5": 0.386,
+      "Lecture Wk 6": 0.386,
+      "Lecture Wk 7": 0.386,
+      "Lecture Wk 8": 0.386,
+      "Lecture Wk 9": 0.386,
+      "Lecture Wk 10": 0.386,
+      "Lecture Wk 11": 0.386,
+      "Lecture Wk 12": 0.386,
+      "Lecture Wk 13": 0.386,
+      "Lecture Wk 14": 0.386,
+      "Lecture Wk 15": 0.386
     },
     "ECON1023": {
-      "Quiz 1": 4.0,
-      "Quiz 2": 4.0,
-      "Quiz 3": 4.0,
-      "Quiz 4": 4.0,
-      "Quiz 5": 4.0,
-      "Quiz 6": 4.0,
-      "Midterm Exam": 12.0,
-      "Final Exam": 12.0,
-      "Lecture Wk 1": 0.4,
-      "Lecture Wk 2": 0.4,
-      "Lecture Wk 3": 0.4,
-      "Lecture Wk 4": 0.4,
-      "Lecture Wk 5": 0.4,
-      "Lecture Wk 6": 0.4,
-      "Lecture Wk 7": 0.4,
-      "Lecture Wk 8": 0.4,
-      "Lecture Wk 9": 0.4,
-      "Lecture Wk 10": 0.4,
-      "Lecture Wk 11": 0.4,
-      "Lecture Wk 12": 0.4,
-      "Lecture Wk 13": 0.4,
-      "Lecture Wk 14": 0.4,
-      "Lecture Wk 15": 0.4
+      "Quiz 1": 8.0,
+      "Quiz 2": 8.0,
+      "Quiz 3": 8.0,
+      "Quiz 4": 8.0,
+      "Quiz 5": 8.0,
+      "Quiz 6": 8.0,
+      "Midterm Exam": 24.0,
+      "Final Exam": 24.0,
+      "Lecture Wk 1": 0.8,
+      "Lecture Wk 2": 0.8,
+      "Lecture Wk 3": 0.8,
+      "Lecture Wk 4": 0.8,
+      "Lecture Wk 5": 0.8,
+      "Lecture Wk 6": 0.8,
+      "Lecture Wk 7": 0.8,
+      "Lecture Wk 8": 0.8,
+      "Lecture Wk 9": 0.8,
+      "Lecture Wk 10": 0.8,
+      "Lecture Wk 11": 0.8,
+      "Lecture Wk 12": 0.8,
+      "Lecture Wk 13": 0.8,
+      "Lecture Wk 14": 0.8,
+      "Lecture Wk 15": 0.8
     },
     "JPNL2018": {
-      "Class Part W1": 1.0,
-      "Class Part W2": 1.0,
-      "Class Part W3": 1.0,
-      "Class Part W4": 1.0,
-      "Class Part W5": 1.0,
-      "Class Part W6": 1.0,
-      "Class Part W7": 1.0,
-      "Class Part W8": 1.0,
-      "Class Part W9": 1.0,
-      "Class Part W10": 1.0,
-      "Post-HW W1": 2.0,
-      "Post-HW W2": 2.0,
-      "Post-HW W3": 2.0,
-      "Post-HW W4": 2.0,
-      "Post-HW W5": 2.0,
-      "Post-HW W6": 2.0,
-      "Post-HW W7": 2.0,
-      "Post-HW W8": 2.0,
-      "Post-HW W9": 2.0,
-      "Reading W1": 1.0,
-      "Reading W2": 1.0,
-      "Reading W3": 1.0,
-      "Reading W4": 1.0,
-      "Reading W5": 1.0,
-      "Reading W6": 1.0,
-      "Reading W7": 1.0,
-      "Reading W8": 1.0,
-      "Reading W9": 1.0,
-      "Reading W10": 1.0,
-      "In-class Quiz W1": 1.0,
-      "In-class Quiz W2": 1.0,
-      "In-class Quiz W3": 1.0,
-      "In-class Quiz W4": 1.0,
-      "In-class Quiz W5": 1.0,
-      "In-class Quiz W6": 1.0,
-      "In-class Quiz W7": 1.0,
-      "In-class Quiz W8": 1.0,
-      "In-class Quiz W9": 1.0,
-      "In-class Quiz W10": 1.0,
-      "Midterm Exam": 8.0,
-      "Final Exam": 8.0,
-      "Lecture Wk 1": 0.4,
-      "Lecture Wk 2": 0.4,
-      "Lecture Wk 3": 0.4,
-      "Lecture Wk 4": 0.4,
-      "Lecture Wk 5": 0.4,
-      "Lecture Wk 6": 0.4,
-      "Lecture Wk 7": 0.4,
-      "Lecture Wk 8": 0.4,
-      "Lecture Wk 9": 0.4,
-      "Lecture Wk 10": 0.4,
-      "Lecture Wk 11": 0.4,
-      "Lecture Wk 12": 0.4,
-      "Lecture Wk 13": 0.4,
-      "Lecture Wk 14": 0.4,
-      "Lecture Wk 15": 0.4
+      "Class Part W1": 1.635,
+      "Class Part W2": 1.635,
+      "Class Part W3": 1.635,
+      "Class Part W4": 1.635,
+      "Class Part W5": 1.635,
+      "Class Part W6": 1.635,
+      "Class Part W7": 1.635,
+      "Class Part W8": 1.635,
+      "Class Part W9": 1.635,
+      "Class Part W10": 1.635,
+      "Post-HW W1": 3.27,
+      "Post-HW W2": 3.27,
+      "Post-HW W3": 3.27,
+      "Post-HW W4": 3.27,
+      "Post-HW W5": 3.27,
+      "Post-HW W6": 3.27,
+      "Post-HW W7": 3.27,
+      "Post-HW W8": 3.27,
+      "Post-HW W9": 3.27,
+      "Reading W1": 1.635,
+      "Reading W2": 1.635,
+      "Reading W3": 1.635,
+      "Reading W4": 1.635,
+      "Reading W5": 1.635,
+      "Reading W6": 1.635,
+      "Reading W7": 1.635,
+      "Reading W8": 1.635,
+      "Reading W9": 1.635,
+      "Reading W10": 1.635,
+      "In-class Quiz W1": 1.635,
+      "In-class Quiz W2": 1.635,
+      "In-class Quiz W3": 1.635,
+      "In-class Quiz W4": 1.635,
+      "In-class Quiz W5": 1.635,
+      "In-class Quiz W6": 1.635,
+      "In-class Quiz W7": 1.635,
+      "In-class Quiz W8": 1.635,
+      "In-class Quiz W9": 1.635,
+      "In-class Quiz W10": 1.635,
+      "Midterm Exam": 13.08,
+      "Final Exam": 13.08
     },
     "IM3004": {
-      "Case Study Presentation": 16.0,
-      "Midterm Exam": 12.0,
-      "Final Exam": 12.0,
-      "Participation W1": 1.0,
-      "Participation W2": 1.0,
-      "Participation W3": 1.0,
-      "Participation W4": 1.0,
-      "Participation W5": 1.0,
-      "Participation W6": 1.0,
-      "Participation W7": 1.0,
-      "Participation W8": 1.0,
-      "Participation W9": 1.0,
-      "Participation W10": 1.0,
-      "Participation W11": 1.0,
-      "Participation W12": 1.0,
-      "Participation W13": 1.0,
-      "Participation W14": 1.0,
-      "Participation W15": 1.0,
-      "Lecture Wk 1": 0.4,
-      "Lecture Wk 2": 0.4,
-      "Lecture Wk 3": 0.4,
-      "Lecture Wk 4": 0.4,
-      "Lecture Wk 5": 0.4,
-      "Lecture Wk 6": 0.4,
-      "Lecture Wk 7": 0.4,
-      "Lecture Wk 8": 0.4,
-      "Lecture Wk 9": 0.4,
-      "Lecture Wk 10": 0.4,
-      "Lecture Wk 11": 0.4,
-      "Lecture Wk 12": 0.4,
-      "Lecture Wk 13": 0.4,
-      "Lecture Wk 14": 0.4,
-      "Lecture Wk 15": 0.4
+      "Case Study Presentation": 31.44,
+      "Midterm Exam": 23.580000000000002,
+      "Final Exam": 23.580000000000002,
+      "Participation W1": 1.965,
+      "Participation W2": 1.965,
+      "Participation W3": 1.965,
+      "Participation W4": 1.965,
+      "Participation W5": 1.965,
+      "Participation W6": 1.965,
+      "Participation W7": 1.965,
+      "Participation W8": 1.965,
+      "Participation W9": 1.965,
+      "Participation W10": 1.965,
+      "Participation W11": 1.965,
+      "Participation W12": 1.965,
+      "Participation W13": 1.965,
+      "Participation W14": 1.965,
+      "Participation W15": 1.965
     },
     "MGT1002": {
-      "Quiz": 2.0,
-      "Project": 10.0,
-      "Exam 1": 12.0,
-      "Exam 2": 12.0,
-      "Exam 3": 12.0,
-      "TA Session W1": 1.0,
-      "TA Session W2": 1.0,
-      "TA Session W3": 1.0,
-      "TA Session W4": 1.0,
-      "TA Session W5": 1.0,
-      "TA Session W6": 1.0,
-      "TA Session W7": 1.0,
-      "TA Session W8": 1.0,
-      "TA Session W9": 1.0,
-      "TA Session W10": 1.0,
-      "Lecture Wk 1": 0.4,
-      "Lecture Wk 2": 0.4,
-      "Lecture Wk 3": 0.4,
-      "Lecture Wk 4": 0.4,
-      "Lecture Wk 5": 0.4,
-      "Lecture Wk 6": 0.4,
-      "Lecture Wk 7": 0.4,
-      "Lecture Wk 8": 0.4,
-      "Lecture Wk 9": 0.4,
-      "Lecture Wk 10": 0.4,
-      "Lecture Wk 11": 0.4,
-      "Lecture Wk 12": 0.4,
-      "Lecture Wk 13": 0.4,
-      "Lecture Wk 14": 0.4,
-      "Lecture Wk 15": 0.4
+      "Quiz": 3.72,
+      "Project": 18.6,
+      "Exam 1": 22.32,
+      "Exam 2": 22.32,
+      "Exam 3": 22.32,
+      "TA Session W1": 1.86,
+      "TA Session W2": 1.86,
+      "TA Session W3": 1.86,
+      "TA Session W4": 1.86,
+      "TA Session W5": 1.86,
+      "TA Session W6": 1.86,
+      "TA Session W7": 1.86,
+      "TA Session W8": 1.86,
+      "TA Session W9": 1.86,
+      "TA Session W10": 1.86,
+      "Lecture Wk 1": 0.7440000000000001,
+      "Lecture Wk 2": 0.7440000000000001,
+      "Lecture Wk 3": 0.7440000000000001,
+      "Lecture Wk 4": 0.7440000000000001,
+      "Lecture Wk 5": 0.7440000000000001,
+      "Lecture Wk 6": 0.7440000000000001,
+      "Lecture Wk 7": 0.7440000000000001,
+      "Lecture Wk 8": 0.7440000000000001,
+      "Lecture Wk 9": 0.7440000000000001,
+      "Lecture Wk 10": 0.7440000000000001,
+      "Lecture Wk 11": 0.7440000000000001,
+      "Lecture Wk 12": 0.7440000000000001,
+      "Lecture Wk 13": 0.7440000000000001,
+      "Lecture Wk 14": 0.7440000000000001,
+      "Lecture Wk 15": 0.7440000000000001
     }
   },
   "r": {
@@ -1547,66 +1457,6 @@
       "Final Exam": [
         92,
         1
-      ],
-      "Lecture Wk 1": [
-        1,
-        1
-      ],
-      "Lecture Wk 2": [
-        8,
-        1
-      ],
-      "Lecture Wk 3": [
-        15,
-        1
-      ],
-      "Lecture Wk 4": [
-        22,
-        1
-      ],
-      "Lecture Wk 5": [
-        29,
-        1
-      ],
-      "Lecture Wk 6": [
-        36,
-        1
-      ],
-      "Lecture Wk 7": [
-        43,
-        1
-      ],
-      "Lecture Wk 8": [
-        50,
-        1
-      ],
-      "Lecture Wk 9": [
-        57,
-        1
-      ],
-      "Lecture Wk 10": [
-        64,
-        1
-      ],
-      "Lecture Wk 11": [
-        71,
-        1
-      ],
-      "Lecture Wk 12": [
-        78,
-        1
-      ],
-      "Lecture Wk 13": [
-        85,
-        1
-      ],
-      "Lecture Wk 14": [
-        92,
-        1
-      ],
-      "Lecture Wk 15": [
-        99,
-        1
       ]
     },
     "IM3004": {
@@ -1680,66 +1530,6 @@
       ],
       "Participation W15": [
         112,
-        1
-      ],
-      "Lecture Wk 1": [
-        1,
-        1
-      ],
-      "Lecture Wk 2": [
-        8,
-        1
-      ],
-      "Lecture Wk 3": [
-        15,
-        1
-      ],
-      "Lecture Wk 4": [
-        22,
-        1
-      ],
-      "Lecture Wk 5": [
-        29,
-        1
-      ],
-      "Lecture Wk 6": [
-        36,
-        1
-      ],
-      "Lecture Wk 7": [
-        43,
-        1
-      ],
-      "Lecture Wk 8": [
-        50,
-        1
-      ],
-      "Lecture Wk 9": [
-        57,
-        1
-      ],
-      "Lecture Wk 10": [
-        64,
-        1
-      ],
-      "Lecture Wk 11": [
-        71,
-        1
-      ],
-      "Lecture Wk 12": [
-        78,
-        1
-      ],
-      "Lecture Wk 13": [
-        85,
-        1
-      ],
-      "Lecture Wk 14": [
-        92,
-        1
-      ],
-      "Lecture Wk 15": [
-        99,
         1
       ]
     },
@@ -1914,23 +1704,23 @@
       ],
       "Pre-lecture W1": [
         44,
-        4
+        16
       ],
       "Pre-lecture W2": [
         51,
-        4
+        16
       ],
       "Pre-lecture W3": [
         58,
-        4
+        16
       ],
       "Pre-lecture W4": [
         65,
-        4
+        16
       ],
       "Pre-lecture W5": [
         72,
-        4
+        16
       ],
       "Lecture Wk 1": [
         1,
@@ -2424,43 +2214,43 @@
     "JPNL2018": {
       "Class Part W1": [
         45,
-        4
+        16
       ],
       "Class Part W2": [
         52,
-        4
+        16
       ],
       "Class Part W3": [
         59,
-        4
+        16
       ],
       "Class Part W4": [
         66,
-        4
+        16
       ],
       "Class Part W5": [
         73,
-        4
+        16
       ],
       "Class Part W6": [
         80,
-        4
+        16
       ],
       "Class Part W7": [
         87,
-        4
+        16
       ],
       "Class Part W8": [
         94,
-        4
+        16
       ],
       "Class Part W9": [
         101,
-        4
+        16
       ],
       "Class Part W10": [
         108,
-        4
+        16
       ],
       "Post-HW W1": [
         52,
@@ -2585,66 +2375,6 @@
       "Final Exam": [
         113,
         4
-      ],
-      "Lecture Wk 1": [
-        1,
-        16
-      ],
-      "Lecture Wk 2": [
-        8,
-        16
-      ],
-      "Lecture Wk 3": [
-        15,
-        16
-      ],
-      "Lecture Wk 4": [
-        22,
-        16
-      ],
-      "Lecture Wk 5": [
-        29,
-        16
-      ],
-      "Lecture Wk 6": [
-        36,
-        16
-      ],
-      "Lecture Wk 7": [
-        43,
-        16
-      ],
-      "Lecture Wk 8": [
-        50,
-        16
-      ],
-      "Lecture Wk 9": [
-        57,
-        16
-      ],
-      "Lecture Wk 10": [
-        64,
-        16
-      ],
-      "Lecture Wk 11": [
-        71,
-        16
-      ],
-      "Lecture Wk 12": [
-        78,
-        16
-      ],
-      "Lecture Wk 13": [
-        85,
-        16
-      ],
-      "Lecture Wk 14": [
-        92,
-        16
-      ],
-      "Lecture Wk 15": [
-        99,
-        16
       ]
     },
     "IM3004": {
@@ -2662,122 +2392,62 @@
       ],
       "Participation W1": [
         42,
-        7
+        16
       ],
       "Participation W2": [
         47,
-        7
+        16
       ],
       "Participation W3": [
         52,
-        7
+        16
       ],
       "Participation W4": [
         57,
-        6
+        16
       ],
       "Participation W5": [
         62,
-        7
+        16
       ],
       "Participation W6": [
         67,
-        7
+        16
       ],
       "Participation W7": [
         72,
-        7
+        16
       ],
       "Participation W8": [
         77,
-        7
+        16
       ],
       "Participation W9": [
         82,
-        7
+        16
       ],
       "Participation W10": [
         87,
-        7
+        16
       ],
       "Participation W11": [
         92,
-        7
+        16
       ],
       "Participation W12": [
         97,
-        7
+        16
       ],
       "Participation W13": [
         102,
-        7
+        16
       ],
       "Participation W14": [
         107,
-        7
+        16
       ],
       "Participation W15": [
         112,
-        7
-      ],
-      "Lecture Wk 1": [
-        1,
-        16
-      ],
-      "Lecture Wk 2": [
-        8,
-        16
-      ],
-      "Lecture Wk 3": [
-        15,
-        16
-      ],
-      "Lecture Wk 4": [
-        22,
-        16
-      ],
-      "Lecture Wk 5": [
-        29,
-        16
-      ],
-      "Lecture Wk 6": [
-        36,
-        16
-      ],
-      "Lecture Wk 7": [
-        43,
-        16
-      ],
-      "Lecture Wk 8": [
-        50,
-        16
-      ],
-      "Lecture Wk 9": [
-        57,
-        16
-      ],
-      "Lecture Wk 10": [
-        64,
-        16
-      ],
-      "Lecture Wk 11": [
-        71,
-        16
-      ],
-      "Lecture Wk 12": [
-        78,
-        16
-      ],
-      "Lecture Wk 13": [
-        85,
-        16
-      ],
-      "Lecture Wk 14": [
-        92,
-        16
-      ],
-      "Lecture Wk 15": [
-        99,
         16
       ]
     },
@@ -2804,43 +2474,43 @@
       ],
       "TA Session W1": [
         45,
-        10
+        16
       ],
       "TA Session W2": [
         52,
-        10
+        16
       ],
       "TA Session W3": [
         59,
-        10
+        16
       ],
       "TA Session W4": [
         66,
-        11
+        16
       ],
       "TA Session W5": [
         73,
-        10
+        16
       ],
       "TA Session W6": [
         80,
-        10
+        16
       ],
       "TA Session W7": [
         87,
-        10
+        16
       ],
       "TA Session W8": [
         94,
-        10
+        16
       ],
       "TA Session W9": [
         101,
-        10
+        16
       ],
       "TA Session W10": [
         108,
-        10
+        16
       ],
       "Lecture Wk 1": [
         1,
@@ -2931,76 +2601,6 @@
         ],
         [
           106,
-          4
-        ]
-      ],
-      "Pre-lecture W1": [
-        [
-          44,
-          2
-        ],
-        [
-          44,
-          3
-        ],
-        [
-          44,
-          4
-        ]
-      ],
-      "Pre-lecture W2": [
-        [
-          51,
-          2
-        ],
-        [
-          51,
-          3
-        ],
-        [
-          51,
-          4
-        ]
-      ],
-      "Pre-lecture W3": [
-        [
-          58,
-          2
-        ],
-        [
-          58,
-          3
-        ],
-        [
-          58,
-          4
-        ]
-      ],
-      "Pre-lecture W4": [
-        [
-          65,
-          2
-        ],
-        [
-          65,
-          3
-        ],
-        [
-          65,
-          4
-        ]
-      ],
-      "Pre-lecture W5": [
-        [
-          72,
-          2
-        ],
-        [
-          72,
-          3
-        ],
-        [
-          72,
           4
         ]
       ]
@@ -3140,146 +2740,6 @@
       ]
     },
     "JPNL2018": {
-      "Class Part W1": [
-        [
-          45,
-          2
-        ],
-        [
-          45,
-          3
-        ],
-        [
-          45,
-          4
-        ]
-      ],
-      "Class Part W2": [
-        [
-          52,
-          2
-        ],
-        [
-          52,
-          3
-        ],
-        [
-          52,
-          4
-        ]
-      ],
-      "Class Part W3": [
-        [
-          59,
-          2
-        ],
-        [
-          59,
-          3
-        ],
-        [
-          59,
-          4
-        ]
-      ],
-      "Class Part W4": [
-        [
-          66,
-          2
-        ],
-        [
-          66,
-          3
-        ],
-        [
-          66,
-          4
-        ]
-      ],
-      "Class Part W5": [
-        [
-          73,
-          2
-        ],
-        [
-          73,
-          3
-        ],
-        [
-          73,
-          4
-        ]
-      ],
-      "Class Part W6": [
-        [
-          80,
-          2
-        ],
-        [
-          80,
-          3
-        ],
-        [
-          80,
-          4
-        ]
-      ],
-      "Class Part W7": [
-        [
-          87,
-          2
-        ],
-        [
-          87,
-          3
-        ],
-        [
-          87,
-          4
-        ]
-      ],
-      "Class Part W8": [
-        [
-          94,
-          2
-        ],
-        [
-          94,
-          3
-        ],
-        [
-          94,
-          4
-        ]
-      ],
-      "Class Part W9": [
-        [
-          101,
-          2
-        ],
-        [
-          101,
-          3
-        ],
-        [
-          101,
-          4
-        ]
-      ],
-      "Class Part W10": [
-        [
-          108,
-          2
-        ],
-        [
-          108,
-          3
-        ],
-        [
-          108,
-          4
-        ]
-      ],
       "In-class Quiz W1": [
         [
           45,
@@ -3377,96 +2837,6 @@
           106,
           7
         ]
-      ],
-      "Participation W1": [
-        [
-          42,
-          7
-        ]
-      ],
-      "Participation W2": [
-        [
-          47,
-          7
-        ]
-      ],
-      "Participation W3": [
-        [
-          52,
-          7
-        ]
-      ],
-      "Participation W4": [
-        [
-          57,
-          6
-        ]
-      ],
-      "Participation W5": [
-        [
-          62,
-          7
-        ]
-      ],
-      "Participation W6": [
-        [
-          67,
-          7
-        ]
-      ],
-      "Participation W7": [
-        [
-          72,
-          7
-        ]
-      ],
-      "Participation W8": [
-        [
-          77,
-          7
-        ]
-      ],
-      "Participation W9": [
-        [
-          82,
-          7
-        ]
-      ],
-      "Participation W10": [
-        [
-          87,
-          7
-        ]
-      ],
-      "Participation W11": [
-        [
-          92,
-          7
-        ]
-      ],
-      "Participation W12": [
-        [
-          97,
-          7
-        ]
-      ],
-      "Participation W13": [
-        [
-          102,
-          7
-        ]
-      ],
-      "Participation W14": [
-        [
-          107,
-          7
-        ]
-      ],
-      "Participation W15": [
-        [
-          112,
-          7
-        ]
       ]
     },
     "MGT1002": {
@@ -3497,66 +2867,6 @@
       "Exam 3": [
         [
           109,
-          10
-        ]
-      ],
-      "TA Session W1": [
-        [
-          45,
-          10
-        ]
-      ],
-      "TA Session W2": [
-        [
-          52,
-          10
-        ]
-      ],
-      "TA Session W3": [
-        [
-          59,
-          10
-        ]
-      ],
-      "TA Session W4": [
-        [
-          66,
-          11
-        ]
-      ],
-      "TA Session W5": [
-        [
-          73,
-          10
-        ]
-      ],
-      "TA Session W6": [
-        [
-          80,
-          10
-        ]
-      ],
-      "TA Session W7": [
-        [
-          87,
-          10
-        ]
-      ],
-      "TA Session W8": [
-        [
-          94,
-          10
-        ]
-      ],
-      "TA Session W9": [
-        [
-          101,
-          10
-        ]
-      ],
-      "TA Session W10": [
-        [
-          108,
           10
         ]
       ]
