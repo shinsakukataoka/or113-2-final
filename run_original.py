@@ -215,29 +215,12 @@ def main():
     else:
         for k, t, i, j in schedule:
             flag = "*" if (k, t, i, j) in mandatory else " "
-            # print(f"{flag} ({k:3d}, {t:2d})  {i:<8}  {j}")
+            print(f"{flag} ({k:3d}, {t:2d})  {i:<8}  {j}")
 
     # final GPA in 4-point scale
     total_cred = sum(w.values())
     gpa_4 = (sum(w[i] * G[i].X for i in I) / total_cred) * 4
     print(f"Weighted GPA (4-pt) : {gpa_4:5.2f}")
-
-
-def run_optimal_objective(json_path):
-    import sys
-    sys.argv = ["run.py", json_path, "--pretty", "list"]
-    from io import StringIO
-    import contextlib
-
-    f = StringIO()
-    with contextlib.redirect_stdout(f):
-        main()
-    output = f.getvalue()
-
-    for line in output.splitlines():
-        if "Total utility" in line:
-            return float(line.strip().split()[-1])
-    raise RuntimeError("Could not parse optimal objective")
 # ------------------------------------------------------------------ #
 if __name__ == "__main__":
     main()
