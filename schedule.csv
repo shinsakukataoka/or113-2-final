@@ -1,0 +1,361 @@
+day,shift,course,task
+1,8,IM3004,Case Study Presentation
+2,3,CSIE1212,Homework 0
+2,7,IM3004,Case Study Presentation
+3,5,IM2010,Survey/Admin
+3,7,IM3004,Case Study Presentation
+4,4,IM3004,Case Study Presentation
+5,6,MATH4008,WeBWorK
+6,2,IM3004,Case Study Presentation
+6,8,MATH4008,Quiz 1
+7,3,IM3004,Case Study Presentation
+9,2,MATH4008,WeBWorK
+10,3,CSIE1212,Mini HW A
+10,4,ECON1023,Quiz 1
+10,8,MATH4008,WeBWorK
+11,4,MATH4008,Quiz 1
+11,5,MGT1002,Exam 1
+12,4,MATH4008,Quiz 1
+12,5,MGT1002,Exam 1
+12,8,IM3004,Case Study Presentation
+13,5,IM3004,Case Study Presentation
+14,4,IM3004,Case Study Presentation
+15,3,IM3004,Case Study Presentation
+15,6,CSIE1212,Mini HW B
+16,2,MGT1002,Quiz
+16,3,MGT1002,Exam 1
+16,4,MGT1002,Exam 1
+16,5,MATH4008,Worksheet 1
+17,1,IM3004,Case Study Presentation
+17,4,MATH4008,Worksheet 1
+18,4,ECON1023,Quiz 1
+18,5,CSIE1212,Homework 0
+18,11,MATH4008,Quiz 1
+19,4,MGT1002,Quiz
+19,14,ECON1023,Quiz 3
+21,4,ECON1023,Quiz 2
+22,3,MATH4008,Quiz 2
+22,4,IM2010,Homework 1
+22,10,MGT1002,Quiz
+22,14,IM3004,Case Study Presentation
+23,3,IM3004,Case Study Presentation
+23,4,MATH4008,Quiz 2
+23,11,IM3004,Case Study Presentation
+24,2,CSIE1212,Homework 1
+24,3,IM2010,Homework 1
+24,4,MATH4008,Quiz 2
+24,14,IM2010,Homework 1
+25,2,CSIE1212,Homework 1
+25,4,ECON1023,Quiz 2
+25,7,MGT1002,Exam 1
+25,16,IM2010,Homework 1
+26,3,CSIE1212,Homework 0
+26,4,ECON1023,Quiz 1
+26,5,MATH4008,Worksheet 2
+26,8,IM3004,Case Study Presentation
+28,1,CSIE1212,Homework 1
+28,4,MGT1002,Exam 1
+29,2,CSIE1212,Homework 0
+29,4,MGT1002,Exam 1
+29,5,IM3004,Midterm Exam
+30,1,IM3004,Case Study Presentation
+30,5,CSIE1212,Homework 1
+30,14,CSIE1212,Homework 1
+31,2,IM3004,Midterm Exam
+31,4,MATH4008,Worksheet 2
+31,10,MGT1002,Exam 1
+31,16,IM2010,Homework 2
+32,2,IM2010,Homework 2
+32,4,ECON1023,Quiz 3
+32,8,CSIE1212,Midterm Exam
+32,16,JPNL2018,Midterm Exam
+33,4,ECON1023,Quiz 2
+33,7,IM2010,Homework 2
+33,8,IM3004,Midterm Exam
+33,9,CSIE1212,Midterm Exam
+34,4,IM3004,Midterm Exam
+34,5,CSIE1212,Homework 1
+35,2,IM3004,Midterm Exam
+35,4,MATH4008,WeBWorK
+36,1,JPNL2018,Midterm Exam
+36,2,MATH4008,Final Exam
+36,3,CSIE1212,Mini HW D
+36,5,IM3004,Midterm Exam
+37,1,CSIE1212,Homework 2
+37,2,CSIE1212,Mini HW C
+37,4,ECON1023,Midterm Exam
+37,5,MATH4008,Worksheet 3
+38,1,CSIE1212,Midterm Exam
+38,3,JPNL2018,Midterm Exam
+38,4,IM2010,Midterm Exam
+38,7,JPNL2018,In-class Quiz W2
+39,2,MATH4008,Final Exam
+39,4,ECON1023,Midterm Exam
+39,5,CSIE1212,Mini HW E
+39,11,MATH4008,Quiz 2
+40,2,CSIE1212,Homework 2
+40,4,ECON1023,Quiz 3
+40,5,MATH4008,Worksheet 3
+40,7,IM3004,Midterm Exam
+41,4,ECON1023,Midterm Exam
+41,5,IM3004,Midterm Exam
+42,4,IM3004,Participation W1
+42,7,IM3004,Midterm Exam
+43,2,ECON1023,Midterm Exam
+43,3,MATH4008,Final Exam
+43,4,CSIE1212,Midterm Exam
+43,7,IM3004,Case Study Presentation
+44,1,IM2010,Pre-lecture W1
+44,4,JPNL2018,Midterm Exam
+44,5,JPNL2018,In-class Quiz W1
+44,15,IM2010,Pre-lecture W1
+45,1,JPNL2018,Class Part W1
+45,4,JPNL2018,Reading W1
+45,5,JPNL2018,In-class Quiz W1
+45,6,MGT1002,TA Session W1
+46,1,JPNL2018,Post-HW W1
+46,4,ECON1023,Quiz 4
+46,5,ECON1023,Midterm Exam
+46,7,JPNL2018,Midterm Exam
+47,1,ECON1023,Quiz 5
+47,3,ECON1023,Midterm Exam
+47,4,MGT1002,Exam 2
+47,6,IM3004,Participation W2
+48,3,IM3004,Midterm Exam
+48,4,MATH4008,Final Exam
+49,3,MGT1002,Exam 2
+49,4,MATH4008,Final Exam
+50,2,IM2010,Midterm Exam
+50,3,IM2010,Midterm Exam
+50,4,IM2010,Midterm Exam
+50,5,JPNL2018,Midterm Exam
+50,6,JPNL2018,Midterm Exam
+50,7,IM3004,Midterm Exam
+50,8,CSIE1212,Midterm Exam
+51,1,MGT1002,Exam 2
+51,4,ECON1023,Quiz 4
+51,5,IM2010,Pre-lecture W2
+51,16,JPNL2018,Post-HW W1
+52,1,JPNL2018,Reading W2
+52,2,JPNL2018,Class Part W2
+52,5,JPNL2018,In-class Quiz W2
+52,6,MGT1002,TA Session W2
+53,4,ECON1023,Midterm Exam
+53,5,MGT1002,Exam 2
+53,6,JPNL2018,Post-HW W2
+53,8,MGT1002,Exam 2
+54,4,ECON1023,Quiz 4
+54,5,ECON1023,Quiz 5
+54,9,JPNL2018,In-class Quiz W4
+54,16,CSIE1212,Mini HW F
+55,3,JPNL2018,In-class Quiz W3
+55,4,MATH4008,Final Exam
+56,3,ECON1023,Midterm Exam
+56,4,ECON1023,Midterm Exam
+56,5,ECON1023,Midterm Exam
+57,4,IM3004,Participation W4
+57,7,MATH4008,Final Exam
+57,8,MATH4008,Final Exam
+57,9,MATH4008,Final Exam
+58,1,IM2010,Pre-lecture W3
+58,5,CSIE1212,Earth Game
+58,14,JPNL2018,Post-HW W2
+58,16,CSIE1212,Homework 2
+59,1,JPNL2018,Class Part W3
+59,3,JPNL2018,Reading W3
+59,4,MGT1002,TA Session W3
+59,5,JPNL2018,In-class Quiz W3
+60,1,CSIE1212,Earth Game
+60,5,CSIE1212,Mini HW F
+60,8,ECON1023,Quiz 6
+60,9,JPNL2018,In-class Quiz W5
+61,1,CSIE1212,Homework 3
+61,3,CSIE1212,Homework 2
+61,5,CSIE1212,Mini HW H
+61,16,MGT1002,Exam 2
+62,1,IM3004,Participation W5
+62,4,JPNL2018,Post-HW W3
+63,4,IM3004,Case Study Presentation
+63,5,CSIE1212,Homework 3
+64,4,CSIE1212,Homework 2
+64,5,MGT1002,Exam 2
+64,7,MGT1002,Exam 2
+64,13,ECON1023,Quiz 6
+65,1,IM2010,Pre-lecture W4
+65,3,CSIE1212,Mini HW G
+65,4,IM2010,Midterm Project
+65,15,IM2010,Midterm Project
+66,1,JPNL2018,Class Part W4
+66,5,JPNL2018,In-class Quiz W4
+66,8,JPNL2018,Reading W4
+66,10,MGT1002,Exam 2
+67,4,ECON1023,Quiz 6
+67,5,MATH4010,WebWork
+67,8,IM3004,Participation W6
+67,16,IM3004,Participation W6
+68,2,IM2010,Midterm Project
+68,3,MATH4010,WebWork
+68,4,ECON1023,Quiz 5
+68,6,MATH4010,Quiz 1
+69,4,CSIE1212,Homework 3
+69,6,MATH4010,HW1
+70,6,CSIE1212,Homework 3
+70,8,IM2010,Midterm Project
+71,2,MATH4010,HW1
+71,3,JPNL2018,Post-HW W4
+71,4,CSIE1212,Mini HW I
+71,9,IM2010,Midterm Project
+72,4,CSIE1212,Homework 3
+72,5,IM2010,Pre-lecture W5
+72,6,IM3004,Participation W7
+72,8,IM2010,Midterm Project
+73,1,MGT1002,TA Session W5
+73,4,JPNL2018,Reading W5
+73,5,JPNL2018,In-class Quiz W5
+73,16,JPNL2018,Class Part W5
+74,1,JPNL2018,In-class Quiz W8
+74,2,IM2010,Midterm Project
+74,4,MATH4010,Quiz 1
+74,5,MATH4010,Quiz 1
+75,1,JPNL2018,Post-HW W5
+75,4,ECON1023,Quiz 6
+75,7,JPNL2018,In-class Quiz W7
+75,15,MATH4010,WebWork
+76,4,IM2010,Midterm Project
+76,16,JPNL2018,Post-HW W5
+77,2,IM3004,Participation W8
+77,5,IM2010,Midterm Project
+78,5,CSIE1212,Homework 4
+78,7,IM2010,Homework 3
+78,8,CSIE1212,Homework 4
+78,16,MATH4010,Quiz 2
+79,1,IM2010,Homework 3
+79,4,IM2010,Homework 3
+79,5,CSIE1212,Homework 4
+79,16,JPNL2018,In-class Quiz W6
+80,5,JPNL2018,In-class Quiz W6
+80,7,MGT1002,TA Session W6
+80,8,JPNL2018,Reading W6
+80,16,JPNL2018,Class Part W6
+81,1,MATH4010,Quiz 2
+81,4,MATH4010,Quiz 2
+81,7,CSIE1212,Software Dev Game
+81,15,JPNL2018,In-class Quiz W9
+82,2,JPNL2018,Post-HW W6
+82,6,IM3004,Participation W9
+82,7,JPNL2018,Post-HW W6
+82,11,MATH4010,Quiz 1
+83,6,MATH4010,HW2
+83,16,MATH4010,Quiz 2
+84,2,CSIE1212,Software Dev Game
+84,10,JPNL2018,In-class Quiz W9
+85,3,IM2010,FP Report
+85,4,CSIE1212,Homework 4
+85,5,IM3004,Final Exam
+85,7,IM2010,FP Report
+86,2,IM3004,Final Exam
+86,4,IM2010,FP Report
+86,5,IM2010,FP Report
+86,16,CSIE1212,Homework 4
+87,4,MGT1002,TA Session W7
+87,5,JPNL2018,In-class Quiz W7
+87,6,JPNL2018,Reading W7
+87,7,JPNL2018,Class Part W7
+88,2,IM3004,Final Exam
+88,3,IM2010,FP Report
+88,5,CSIE1212,Final Exam
+88,16,IM3004,Final Exam
+89,2,IM3004,Final Exam
+89,3,MATH4010,HW2
+89,5,MGT1002,Exam 3
+89,9,MGT1002,Exam 3
+90,3,JPNL2018,Post-HW W7
+90,4,MATH4010,WebWork
+91,1,ECON1023,Final Exam
+91,7,IM2010,FP Report
+92,2,MATH4010,Final Exam
+92,3,IM3004,Participation W11
+92,4,MGT1002,Exam 3
+92,5,IM3004,Final Exam
+93,3,MGT1002,Exam 3
+93,4,CSIE1212,Kahoot Review
+93,5,IM3004,Final Exam
+93,9,MATH4010,Final Exam
+94,3,MGT1002,TA Session W8
+94,4,JPNL2018,Reading W8
+94,5,JPNL2018,In-class Quiz W8
+94,8,JPNL2018,Class Part W8
+95,2,ECON1023,Final Exam
+95,5,JPNL2018,Post-HW W8
+95,8,IM3004,Final Exam
+95,16,IM3004,Final Exam
+96,2,ECON1023,Final Exam
+96,3,ECON1023,Final Exam
+96,4,IM2010,Final Exam
+96,11,MATH4010,Quiz 2
+97,1,IM3004,Participation W12
+97,3,ECON1023,Final Exam
+98,4,ECON1023,Final Exam
+98,5,ECON1023,Final Exam
+99,3,MGT1002,Project
+99,4,MATH4010,Final Exam
+99,5,MGT1002,Project
+99,7,MATH4010,HW3
+100,2,MGT1002,Project
+100,3,MATH4010,HW3
+100,4,MGT1002,Project
+100,16,MGT1002,Project
+101,1,JPNL2018,Class Part W9
+101,3,JPNL2018,Reading W9
+101,4,MGT1002,TA Session W9
+101,5,JPNL2018,In-class Quiz W9
+102,2,IM3004,Participation W13
+102,4,CSIE1212,Final Exam
+102,5,MGT1002,Project
+102,15,ECON1023,Final Exam
+103,2,MGT1002,Project
+103,3,JPNL2018,Post-HW W9
+103,6,IM3004,Final Exam
+103,10,MGT1002,Project
+104,4,MGT1002,Exam 3
+104,5,ECON1023,Final Exam
+105,1,CSIE1212,Final Exam
+105,6,MATH4010,Final Exam
+106,2,IM2010,Final Exam
+106,3,IM2010,Final Exam
+106,4,IM2010,Final Exam
+106,7,IM3004,Final Exam
+106,8,CSIE1212,Final Exam
+107,1,JPNL2018,In-class Quiz W10
+107,2,IM3004,Participation W14
+107,6,MGT1002,Exam 3
+107,8,MATH4010,HW3
+108,3,JPNL2018,Reading W10
+108,5,JPNL2018,In-class Quiz W10
+108,6,MGT1002,TA Session W10
+108,8,JPNL2018,Class Part W10
+109,3,MATH4010,Final Exam
+109,4,MGT1002,Exam 3
+109,5,JPNL2018,Final Exam
+109,10,MGT1002,Exam 3
+110,3,ECON1023,Final Exam
+110,4,ECON1023,Final Exam
+110,6,MATH4010,Final Exam
+110,7,MATH4010,Final Exam
+111,7,MATH4010,Final Exam
+111,8,MATH4010,Final Exam
+111,9,MATH4010,Final Exam
+112,2,IM3004,Participation W15
+112,6,JPNL2018,Final Exam
+113,1,JPNL2018,Final Exam
+113,2,JPNL2018,Final Exam
+113,3,JPNL2018,Final Exam
+113,4,JPNL2018,Final Exam
+114,1,CSIE1212,Mini HW J
+114,2,CSIE1212,Mini HW L
+114,13,CSIE1212,Mini HW L
+114,16,CSIE1212,Mini HW K
+115,2,CSIE1212,Mini HW K
+115,5,CSIE1212,Mini HW J
+115,8,CSIE1212,With-Video Quizzes
+115,16,CSIE1212,Mini HW L

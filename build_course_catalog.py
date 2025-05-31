@@ -99,9 +99,9 @@ for row in [
 ]:
     add(IM, *row, None, im_cat, TASKS)
 
-add_exam(IM, "Midterm Exam", 12, 50, 6,
+add_exam(IM, "Midterm Exam", 12, 50, 6+3,
          fixed=[(50,2),(50,3),(50,4)], cat=im_cat, tlist=TASKS)
-add_exam(IM, "Final Exam",   18,106, 6,
+add_exam(IM, "Final Exam",   18,106, 6+3,
          fixed=[(106,2),(106,3),(106,4)], cat=im_cat, tlist=TASKS)
 
 for w,d in enumerate([44,51,58,65,72], start=1):
@@ -117,9 +117,9 @@ for nm,w,rel,due,e in [
     ("Worksheet 3",7,36,50,2), ("WeBWorK", 10,1,56,4)
 ]:
     add(M8, nm, w, rel, due, e, None, cat8, TASKS)
-add_exam(M8,"Quiz 1",10,18,3,fixed=[(18,11)],cat=cat8,tlist=TASKS)
-add_exam(M8,"Quiz 2",10,39,3,fixed=[(39,11)],cat=cat8,tlist=TASKS)
-add_exam(M8,"Final Exam",50,57,8,
+add_exam(M8,"Quiz 1",10,18,3+1,fixed=[(18,11)],cat=cat8,tlist=TASKS)
+add_exam(M8,"Quiz 2",10,39,3+1,fixed=[(39,11)],cat=cat8,tlist=TASKS)
+add_exam(M8,"Final Exam",50,57,8+3,
          fixed=[(57,7),(57,8),(57,9)],cat=cat8,tlist=TASKS)
 
 # === 3. MATH4010 Calculus IV (STEM) ================================
@@ -129,9 +129,9 @@ for nm,w,rel,due,e in [
     ("HW3",5,96,109,2), ("WebWork",5,57,109,4)
 ]:
     add(M10,nm,w,rel,due,e,None,cat10,TASKS)
-add_exam(M10,"Quiz 1",15,82,3,fixed=[(82,11)],cat=cat10,tlist=TASKS)
-add_exam(M10,"Quiz 2",15,96,3,fixed=[(96,11)],cat=cat10,tlist=TASKS)
-add_exam(M10,"Final Exam",50,111,8,
+add_exam(M10,"Quiz 1",15,82,3+1,fixed=[(82,11)],cat=cat10,tlist=TASKS)
+add_exam(M10,"Quiz 2",15,96,3+1,fixed=[(96,11)],cat=cat10,tlist=TASKS)
+add_exam(M10,"Final Exam",50,111,8+3,
          fixed=[(111,7),(111,8),(111,9)],cat=cat10,tlist=TASKS)
 
 # === 4. CSIE1212 Data Structures (STEM) ============================
@@ -148,8 +148,8 @@ for nm,w,rel,due,e in [("Earth Game",4,57,64,3),
                        ("Kahoot Review",3,92,99,1)]:
     add(CS,nm,w,rel,due,e,None,ccat,TASKS)
 add_exam(CS,"With-Video Quizzes",0,115,6,cat=ccat,tlist=TASKS)
-add_exam(CS,"Midterm Exam",25, 50,6,fixed=[(50,8)], cat=ccat,tlist=TASKS)
-add_exam(CS,"Final Exam", 25,106,6,fixed=[(106,8)], cat=ccat,tlist=TASKS)
+add_exam(CS,"Midterm Exam",25, 50,6+1,fixed=[(50,8)], cat=ccat,tlist=TASKS)
+add_exam(CS,"Final Exam", 25,106,6+1,fixed=[(106,8)], cat=ccat,tlist=TASKS)
 
 # === 5. ECON1023 Macroeconomics (SOC) ==============================
 EC, ecat = "ECON1023","SOC"
@@ -157,9 +157,9 @@ for q,(rel,due,day) in enumerate(
         [(14,26,26),(23,33,33),(30,40,40),
          (42,54,54),(54,68,68),(61,75,75)], start=1):
     add_exam(EC,f"Quiz {q}",4,due,2,fixed=[(day,4)],cat=ecat,tlist=TASKS)
-add_exam(EC,"Midterm Exam",40, 56,6,
+add_exam(EC,"Midterm Exam",40, 56,6+3,
          fixed=[(56,3),(56,4),(56,5)],cat=ecat,tlist=TASKS)
-add_exam(EC,"Final Exam", 40,110,6,fixed=[(110,4)],cat=ecat,tlist=TASKS)
+add_exam(EC,"Final Exam", 40,110,6+3,fixed=[(110,4)],cat=ecat,tlist=TASKS)
 
 # === 6. JPNL2018 Basic Japanese (HUM) ==============================
 JP, jcat = "JPNL2018","HUM"
@@ -171,18 +171,18 @@ for w,(rel,due) in enumerate(zip(range(45,108,7),range(52,116,7)),start=1):
 for w,d in enumerate(range(45,109,7),start=1):
     add(JP,f"Reading W{w}",1,d,d,0.5,None,jcat,TASKS)
 for w,d in enumerate(range(45,109,7),start=1):
-    add_exam(JP,f"In-class Quiz W{w}",1,d,0.5,
+    add_exam(JP,f"In-class Quiz W{w}",1,d,0.5+1,
              fixed=[(d,5)],cat=jcat,tlist=TASKS)
-add_exam(JP,"Midterm Exam",30,50,4,
+add_exam(JP,"Midterm Exam",30,50,4+3,
          fixed=[(50,5),(50,6)],cat=jcat,tlist=TASKS)
-add_exam(JP,"Final Exam",30,113,4,
+add_exam(JP,"Final Exam",30,113,4+3,
          fixed=[(113,2),(113,3),(113,4)],cat=jcat,tlist=TASKS)
 
 # === 7. IM3004 Organizational Behaviour (SOC) =====================
 OB, obcat = "IM3004","SOC"
-add(OB,"Case Study Presentation",25,1,92,8,None,obcat,TASKS)
-add_exam(OB,"Midterm Exam",30,50,6,fixed=[(50,7)],cat=obcat,tlist=TASKS)
-add_exam(OB,"Final Exam", 30,106,6,fixed=[(106,7)],cat=obcat,tlist=TASKS)
+add(OB,"Case Study Presentation",25,1,92,8+1,None,obcat,TASKS)
+add_exam(OB,"Midterm Exam",30,50,6+1,fixed=[(50,7)],cat=obcat,tlist=TASKS)
+add_exam(OB,"Final Exam", 30,106,6+1,fixed=[(106,7)],cat=obcat,tlist=TASKS)
 for w,d in enumerate(range(42,113,5),start=1):
     sh = 6 if d == 57 else 7
     add(OB,f"Participation W{w}",1,d,d,0.5,
@@ -190,11 +190,11 @@ for w,d in enumerate(range(42,113,5),start=1):
 
 # === 8. MGT1002 Accounting Principles (2) (SOC) ===================
 AC, acat = "MGT1002","SOC"
-add(AC,"Quiz",   4,15,22,1,fixed=[(22,10)],cat=acat,tlist=TASKS)
-add(AC,"Project",6,99,103,5,fixed=[(103,10)],cat=acat,tlist=TASKS)
-add_exam(AC,"Exam 1",27,31,6,fixed=[(31,10)],cat=acat,tlist=TASKS)
-add_exam(AC,"Exam 2",27,66,6,fixed=[(66,10)],cat=acat,tlist=TASKS)
-add_exam(AC,"Exam 3",26,109,6,fixed=[(109,10)],cat=acat,tlist=TASKS)
+add(AC,"Quiz",   4,15,22,1+1,fixed=[(22,10)],cat=acat,tlist=TASKS)
+add(AC,"Project",6,99,103,5+1,fixed=[(103,10)],cat=acat,tlist=TASKS)
+add_exam(AC,"Exam 1",27,31,6+1,fixed=[(31,10)],cat=acat,tlist=TASKS)
+add_exam(AC,"Exam 2",27,66,6+1,fixed=[(66,10)],cat=acat,tlist=TASKS)
+add_exam(AC,"Exam 3",26,109,6+1,fixed=[(109,10)],cat=acat,tlist=TASKS)
 for w,d in enumerate(range(45,109,7),start=1):
     sh = 11 if d == 66 else 10
     add(AC,f"TA Session W{w}",1,d,d,0.5,
